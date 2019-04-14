@@ -8,11 +8,14 @@ import time
 
 stopWords = set(stopwords.words('english'))
 contents = []
+ansdate = []
+months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 
 with open('webmd-answer.json') as json_file:
     data = json.load(json_file, strict=False)
     for row in data:
     	contents.append(row['answerContent'].lower())
+    	ansdate.append(row['answerPostDate'])
 
 # Scrape disease names with count, and symptoms to lists
 
@@ -78,14 +81,20 @@ cooccurance = []
 ids = list(range(len(contents)))
 itt = time.time()
 # Selected Symptoms keep updating on selection
-selectedSymptoms = ['cough','cold','fever','']
+selectedSymptoms = ['cough','cold']
 
 # Finding the ids where these symptoms occur
 for ss in selectedSymptoms:
+	dates = {}
 	newids = []
 	for ii in ids:
 		if ss in sanitizedSplit[ii]:
 			newids.append(ii)
+			if len(ansdate[ii])==19:
+				adate = ansdate[ii].split(' ')[0]
+				adate = int(adate.split('-')[1])
+				adate = months[adate-1]
+				dates[adate] = dates.get(adate,0) + 1
 	ids = newids
 	if len(ids)==0:
 		break
@@ -115,7 +124,7 @@ while len(nounsOnly)<30+len(selectedSymptoms):
 		nounsOnly.append(tt[0])
 	ii += 1
 
-print(nounsOnly[len(selectedSymptoms):])
+print('\nTop 30 related keywords: ',nounsOnly[len(selectedSymptoms):])
 
 # Storing all keywords in the documents with respective count in a dict
 
@@ -155,5 +164,7 @@ for ii in ids:
 # Sort diseases by occurance
 
 mostLikely = sorted(dDict.items(), key = lambda kv:(kv[1],kv[0]), reverse=True)
-print(mostLikely)
-print(time.time() - itt)
+dates = sorted(dates.items(),key = lambda kv:(kv[1],kv[0]), reverse=True)
+print('\nMost likely diseases: ',mostLikely)
+print('\nMonths of prevalance: ',dates)
+print('\nTime elapsed: ',time.time() - itt)
