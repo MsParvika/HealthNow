@@ -1,0 +1,356 @@
+abdominal pain      
+abdominal pain in children      
+acetaminophen poisoning      
+alcohol intoxication      
+allergic reaction      
+altitude/mountain sickness      
+amputation (accidental)      
+animal bites      
+ankle fracture      
+ankle sprain      
+anthrax      
+aspirin poisoning      
+asthma attack      
+asthma attack in children      
+asthma attack in pregnancy      
+battery ingestion      
+bends/decompression syndrome      
+black eye      
+black widow spider bite      
+bleeding      
+bleeding during pregnancy      
+bleeding under nails      
+blisters      
+blood in stool      
+blood in the urine      
+blue lips (cyanosis)      
+breathing problems      
+broken arm      
+broken arm in children      
+broken collarbone      
+broken elbow      
+broken finger      
+broken finger in children      
+broken foot      
+broken hand      
+broken hip      
+broken jaw      
+broken leg      
+broken nose      
+broken or knocked-out teeth      
+broken shoulder blade      
+broken toe      
+brown recluse spider bite      
+bruises      
+bruises in children      
+burns      
+burns/scalds in children      
+carbon monoxide poisoning      
+catfish sting      
+chemical burns      
+chemical eye burn      
+chest injury      
+chest pain      
+chest pain (angina)      
+choking      
+choking in children      
+colds in children      
+concussion      
+congestion in children      
+constipation      
+convulsions in children      
+coughs      
+cpr for adults      
+cpr for children      
+crabs (pubic lice)      
+cradle cap      
+crying/colic      
+cuts and bleeding      
+cuts and bleeding in children      
+cyanide poisoning      
+dehydration      
+dehydration in children      
+diaper rash      
+diarrhea      
+diarrhea in children      
+diving ear pain      
+dizziness      
+drowning      
+drowning in children      
+drug allergy      
+drug overdose      
+ear foreign body      
+ear infections      
+eczema      
+elbow dislocation      
+electric shock      
+exercise-induced asthma      
+eye bleeding (hyphema)      
+eye burns/corneal burns      
+eye injuries      
+eye injuries in children      
+eye sores/corneal ulcers      
+eyelid inflammation      
+facial fracture      
+fainting      
+fever in adults      
+fever in children      
+finger dislocation      
+finger injuries      
+fishhook injuries      
+food poisoning      
+foreign body in the eye      
+fracture or dislocation      
+frostbite      
+gas pain in children      
+gastroenteritis treatment      
+hand injury      
+head injury      
+head injury in children      
+headache      
+heart attack      
+heart palpatations      
+heat exhaustion      
+heat rash      
+heat stroke      
+hiccups      
+hives      
+hives and angioedema      
+how to operate an automated external defibrillator      
+human bites      
+hyperventilation      
+hypothermia      
+inability to urinate      
+insect sting allergy      
+insect stings and bites      
+insulin reaction      
+iron poisoning      
+jaundice      
+jellyfish stings      
+knee dislocation      
+knee injury      
+labor      
+lice      
+lightning strike      
+low blood sugar      
+migraine headache      
+migraine headache in children      
+miscarriage      
+muscle strain      
+nail injuries      
+neck strain      
+nose foreign body      
+nosebleeds      
+nursemaid elbow      
+there are no topics that begin with 'o'      
+panic attacks      
+paronychia      
+poison ivy, oak, or sumac      
+poisoning      
+poisoning in children      
+puncture wound      
+there are no topics that begin with 'q'      
+rabies      
+rape/sexual assault      
+rashes      
+rectal bleeding      
+rectal foreign object      
+rectal pain      
+reflux (gerd) in children      
+ricin poisoning      
+ruptured tendon      
+scratched eye/corneal abrasion      
+seizure      
+seizure in children      
+severe allergic reaction      
+shark bite      
+shock      
+shock/electrocution      
+shoulder and neck pain      
+shoulder dislocation      
+shoulder separation      
+skier's thumb      
+slipped disk      
+smoke inhalation      
+snakebite      
+splinters      
+sprains and strains      
+stingray injury      
+stomach ache/nausea      
+stroke      
+stroke/tia      
+sty      
+suicidal thoughts      
+sunburn      
+swallowed object      
+swollen testicles/orchitis      
+tailbone injury      
+teething pain      
+testicle pain      
+tetanus      
+tick removal      
+toothache      
+toxic shock syndrome      
+traveler's diarrhea      
+there are no topics that begin with 'u'      
+vaginal bleeding      
+vaginal foreign body      
+vertigo      
+vomiting and nausea      
+vomiting during pregnancy      
+vomiting/spitting up in children      
+whiplash      
+wrist injury      
+cachexia
+loss of appetite
+weight loss
+weight gain
+dry mouth
+fatigue
+malaise
+asthenia
+muscle weakness
+pyrexia
+jaundice
+pain
+abdominal pain
+chest pain
+bruising
+epistaxis
+tremor
+convulsions
+muscle cramps
+tinnitus
+dizziness
+vertigo
+syncope
+hypothermia
+hyperthermia
+discharge
+bleeding
+swelling
+deformity
+sweats
+chills
+shivering
+acalculia
+acrophobia
+agnosia
+agoraphobia
+akathisia
+akinesia
+alexia
+amusia
+anhedonia
+anomia
+anosognosia
+anxiety
+apraxia
+arachnophobia
+ataxia
+bradykinesia
+cataplexy
+chorea
+claustrophobia
+confusion
+deliberate self harm
+drug overdose
+depression
+dysarthria
+dysdiadochokinesia
+dysgraphia
+dystonia
+euphoria
+hallucination
+headache
+hemiballismus
+homicidal ideation
+insomnia
+lhermitte's sign
+mania
+paralysis
+paranoia
+persecution
+paresthesia
+phobia
+the list of phobias
+prosopagnosia
+sciatica
+somnolence
+suicidal ideation
+tic
+tremor
+amaurosis fugax
+amaurosis
+blurred vision
+dalrymple's sign
+double vision
+exophthalmos
+mydriasis
+miosis
+nystagmus
+anorexia
+bloating
+belching
+blood in stool
+melena
+hematochezia
+constipation
+diarrhea
+dysphagia
+dyspepsia
+flatulence
+fecal incontinence
+haematemesis
+nausea
+odynophagia
+proctalgia fugax
+pyrosis
+rectal malodor
+steatorrhea
+vomiting
+chest pain
+claudication
+palpitation
+tachycardia
+bradycardia
+arrhythmia
+dysuria
+hematuria
+impotence
+polyuria
+retrograde ejaculation
+strangury
+urinary frequency
+urinary incontinence
+urinary retention
+hypoventilation
+hyperventilation
+bradypnea
+apnea
+cough
+dyspnea
+hemoptysis
+pleuritic chest pain
+sputum
+tachypnea
+abrasion
+alopecia
+anasarca
+blister
+edema
+hirsutism
+itching
+laceration
+paresthesia
+rash
+urticaria
+bloody show
+dyspareunia
+pelvic pain
+infertility
+labour pains
+vaginal bleeding in early pregnancy
+miscarriage
+vaginal bleeding in late pregnancy
+vaginismus
