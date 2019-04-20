@@ -2,10 +2,24 @@
 body{
   font-family: 'Open Sans', sans-serif;
 }
-table {
+.row {
   width: 100%;
   padding: 5px;
 }
-tr, td {
+.container{
   padding: 5px;
+}
+
+.form-control{
+  border: 3px solid #6B6FC8;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.input-group-text{
+  border: 1px solid #6B6FC8;
+  background: #6B6FC8;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
 }
