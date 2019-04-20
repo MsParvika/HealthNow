@@ -4,9 +4,13 @@
     <meta charset="utf-8">
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jQuery-3.4.min.js"></script>
+    <script src="js/jQuery.ui.js"></script>
     <script src='js/d3.js'></script>
+    <script src='js/autoComplete.js'></script>
     <script src="js/network.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jQuery.css">
     <link rel="stylesheet" href="css/Header.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/network.css">
@@ -23,7 +27,7 @@
     <div class="row">
         <div class="col-sm-6">
             <div class="input-group md-form form-sm form-2 pl-0">
-                <input class="form-control my-0 py-1 amber-border" type="text" placeholder="How can I help you?" aria-label="Search">
+                <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="How can I help you?" aria-label="Search">
                 <div class="input-group-append">
                     <button type="submit" class="input-group-text amber lighten-3" id="basic-text1"><i class="fa fa-search"
                                                                                                        aria-hidden="true"></i></button>
