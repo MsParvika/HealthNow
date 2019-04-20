@@ -1,5 +1,5 @@
-var width = 300;
-var height = 400;
+var width = 500;
+var height = 500;
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
 d3.json("dataPreprocessing/node.json").then(function(graph) {
