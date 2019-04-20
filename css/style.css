@@ -1,0 +1,11 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+  width: 100%;
+  padding: 5px;
+}
+tr, td {
+  padding: 5px;
+}
