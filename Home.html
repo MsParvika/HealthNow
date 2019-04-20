@@ -2,11 +2,14 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">		
-		<script src="js/d3.js"></script>
+		<script src='https://d3js.org/d3.v5.min.js'></script>
+
+		<script src="js/network.js"></script>
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/Header.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/Search.css">
+		<link rel="stylesheet" href="css/network.css">
 		<title>HealthNow</title>
 		
 		<div class="header">
@@ -35,7 +38,7 @@
 				</td>
 			</tr>
 		   <tr>
-			  <td><div id='conceptMap'> </div> <p> concept map </p> </td>
+			  <td><svg id='network'> </svg> <p> networkDiag </p> </td>
 			  <td><div id='barChart'> </div><p> bar chart </p></td>
 		   </tr>
 		   <tr>
