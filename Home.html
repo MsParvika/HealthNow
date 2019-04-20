@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">		
-		<script src="js/d3.js"></script>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/Header.css">
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/Search.css">
-		<title>HealthNow</title>
-		
-		<div class="header">
-			<div class="logo"><img align=center src = "images/Logo.jpg" alt="logo" width ="180" height="45"></div>
-		</div>
-	</head>
-	<body>		
-		<table>
-			<tr>
-				<td> 
-					<div class="search">
-						<span class="counter"></span>
-						<input type="text" class="searchTerm" placeholder="How can I help you?">
-						<button type="submit" class="searchButton">
-							<i class="fa fa-search"></i>
-						</button>
-					</div>
+<head>
+    <meta charset="utf-8">
 
-				</td>
-				<td> 
-					<div class="wrap">
-						<div class="search">
-							<input type="text" class="searchedTerms" placeholder="Keywords">
-						</div>
-					</div>
-				</td>
-			</tr>
-		   <tr>
-			  <td><div id='conceptMap'> </div> <p> concept map </p> </td>
-			  <td><div id='barChart'> </div><p> bar chart </p></td>
-		   </tr>
-		   <tr>
-		   </tr>
-		</table>
-	</body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/d3.js'></script>
+    <script src="js/network.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/network.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>HealthNow</title>
+
+    <div class="header">
+        <img src="images/Logo.jpg" alt="logo" width="180" height="45">
+    </div>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 amber-border" type="text" placeholder="How can I help you?" aria-label="Search">
+                <div class="input-group-append">
+                    <button type="submit" class="input-group-text amber lighten-3" id="basic-text1"><i class="fa fa-search"
+                                                                                                       aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Keywords" aria-label="Search">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div>
+                <svg id='network'></svg>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <p> Bar chart </p>
+        </div>
+    </div>
+</div>
+</body>
 </html>
