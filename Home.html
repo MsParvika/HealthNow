@@ -26,26 +26,37 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-sm-6">
-            <div class="input-group md-form form-sm form-2 pl-0">
-                <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="How can I help you?" aria-label="Search">
-                <div class="input-group-append">
-                    <button type="submit" class="input-group-text amber lighten-3" onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value)"><i class="fa fa-search"> </i></button>
+        <div class = "column">
+            <div class="col-sm">
+                <div class="input-group md-form form-sm form-2 pl-0">
+                    <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="How can I help you?" aria-label="Search">
+                    <div class="input-group-append">
+                        <button type="submit" class="input-group-text amber lighten-3" onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value)"><i class="fa fa-search"> </i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div>
+                    <svg id='network'></svg>
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
-            <span id="keywords"> Keyword History: &nbsp;</span>
+        <div class="column">
+            <div class="col-sm">
+                <span id="keywords"> Keyword History: &nbsp;</span>
+            </div>
+
+            <div class="col-sm">
+                <p> Bar Chart </p>
+            </div>
+            <div class="col-sm">
+                <p> Q and A </p>
+            </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-6">
-            <div>
-                <svg id='network'></svg>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <p> BC</p>
+        <div class="col-sm">
+            <span id=""> Time Series &nbsp;</span>
         </div>
     </div>
 </div>
