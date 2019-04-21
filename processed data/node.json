@@ -1,0 +1,205 @@
+{
+  "thicken" : {
+    "nodes": [
+      {
+        "id": "thicken",
+        "freq": 1,
+        "group" : 5
+      },
+      {
+        "id": "use",
+        "freq": 2,
+        "group" : 7
+      },
+      {
+        "id": "skin",
+        "freq": 2,
+        "group" : 2
+      },
+      {
+        "id": "treatments",
+        "freq": 2,
+        "group" : 9
+      },
+      {
+        "id": "men",
+        "freq": 2,
+        "group" : 10
+      },
+      {
+        "id": "help",
+        "freq": 2,
+        "group" : 1
+      },
+      {
+        "id": "results",
+        "freq": 2,
+        "group" : 7
+      },
+      {
+        "id": "hair",
+        "freq": 2,
+        "group" : 9
+      },
+      {
+        "id": "women",
+        "freq": 2,
+        "group" : 7
+      },
+      {
+        "id": "way",
+        "freq": 2,
+        "group" : 7
+      }
+    ],
+    "links": [
+      {
+        "source": "thicken",
+        "target": "use",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "help",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "men",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "results",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "way",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "hair",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "women",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "skin",
+        "value": 1
+      },
+      {
+        "source": "thicken",
+        "target": "treatments",
+        "value": 1
+      }
+    ]
+  },
+
+  "suicidal": {
+    "nodes": [
+      {
+        "id": "suicidal",
+        "freq": 1,
+        "group" : 7
+      },
+      {
+        "id": "depression",
+        "freq": 2,
+        "group" : 2
+      },
+      {
+        "id": "thoughts",
+        "freq": 2,
+        "group" : 5
+      },
+      {
+        "id": "symptoms",
+        "freq": 2,
+        "group" : 6
+      },
+      {
+        "id": "problems",
+        "freq": 2,
+        "group" : 5
+      },
+      {
+        "id": "effects",
+        "freq": 2,
+        "group" : 5
+      },
+      {
+        "id": "doctor",
+        "freq": 2,
+        "group" : 6
+      },
+      {
+        "id": "time",
+        "freq": 2,
+        "group" : 2
+      },
+      {
+        "id": "medication",
+        "freq": 2,
+        "group" : 10
+      },
+      {
+        "id": "feelings",
+        "freq": 2,
+        "group" : 3
+      }
+    ],
+    "links": [
+      {
+        "source": "suicidal",
+        "target": "depression",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "thoughts",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "symptoms",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "problems",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "effects",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "doctor",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "time",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "medication",
+        "value": 1
+      },
+      {
+        "source": "suicidal",
+        "target": "feelings",
+        "value": 1
+      }
+    ]
+  }
+}

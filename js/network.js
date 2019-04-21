@@ -1,27 +1,30 @@
 var width = 500;
 var height = 500;
-var color = d3.scaleOrdinal(d3.schemeCategory10);
+var color = d3.scaleOrdinal(d3.schemePastel1);
+
 function showChart(queryKey) {
 
     if(!queryKey){
         queryKey = "thicken"
     }
-
+    var svg = d3.select("#network").attr("width", width).attr("height", height);
+    svg.selectAll("*").remove();
     d3.json("dataPreprocessing/node.json").then(function (graph) {
 
-        var svg = d3.select("#network").attr("width", width).attr("height", height);
+        var scaleForRadius = d3.scaleSqrt().domain([0, 150]).range([0, 50]);
 
         var simulation = d3.forceSimulation()
             .force("link", d3.forceLink().id(function (d) {
                 return d.id;
             }))
             .force('charge', d3.forceManyBody()
-                .strength(-200)
+                .strength(-3000)
                 .theta(0.8)
-                .distanceMax(150)
+                .distanceMax(500)
             )
-            .force("center", d3.forceCenter(width / 2, height / 2));
-
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force('anti_collide', d3.forceCollide(function (d) {
+                return scaleForRadius(d.group)+ 5 }));;
 
         function run(graph) {
 
@@ -39,14 +42,19 @@ function showChart(queryKey) {
                 .selectAll("circle")
                 .data(graph.nodes)
                 .enter().append("circle")
-                .attr("r", 2)
-                .attr("fill", function (d) {
-                    return color(d.group);
+                .attr("r", function (d) {
+                    return d.group*5;
                 })
-                .call(d3.drag()
-                    .on("start", dragstarted)
-                    .on("drag", dragged)
-                    .on("end", dragended));
+                .attr("fill", function (d) {
+                    return color(d.freq);
+                });
+
+            //node.on("click", run(d));
+
+            node.call(d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended));
 
             var label = svg.append("g")
                 .attr("class", "labels")
@@ -81,9 +89,11 @@ function showChart(queryKey) {
                     });
 
                 node
-                    .attr("r", 16)
+                    .attr("r", function (d) {
+                        return d.group * 5;
+                    })
                     .attr("fill", function (d) {
-                        return color(d.group);
+                        return color(d.freq);
                     })
                     .style("stroke", "#424242")
                     .style("stroke-width", "1px")
@@ -102,7 +112,9 @@ function showChart(queryKey) {
                     .attr("y", function (d) {
                         return d.y;
                     })
-                    .style("font-size", "10px").style("fill", "#333");
+                    .style("text-anchor", "middle")
+                    .style("font-size", "15px").style("fill", "#333");
+
             }
         }
 
@@ -126,4 +138,6 @@ function showChart(queryKey) {
         run(graph[queryKey])
 
     })
+
+
 }
