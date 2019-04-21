@@ -11,15 +11,32 @@ body{
 }
 
 .form-control{
-  border: 3px solid #6B6FC8;
-  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #6B6FC8;
+  border-radius: 2px 2px 2px 2px;
 }
 
 .input-group-text{
-  border: 1px solid #6B6FC8;
+  border: 2px solid #6B6FC8;
   background: #6B6FC8;
   text-align: center;
   color: #fff;
-  border-radius: 0 5px 5px 0;
+  border-radius: 0 2px 2px 0;
   cursor: pointer;
+}
+
+.btn{
+  background: #6B6FC8;
+  border: 5px solid #ffffff;
+}
+.btn:focus, .btn:hover{
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn:visited{
+  outline: none;
+}
+
+.btn-info:hover, .btn-info:focus {
+  outline: none;
 }
