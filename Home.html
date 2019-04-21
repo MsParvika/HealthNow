@@ -8,6 +8,7 @@
     <script src="js/jQuery.ui.js"></script>
     <script src='js/d3.js'></script>
     <script src='js/autoComplete.js'></script>
+    <script src='js/Query.js'></script>
     <script src="js/network.js"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/jQuery.css">
@@ -29,15 +30,12 @@
             <div class="input-group md-form form-sm form-2 pl-0">
                 <input class="form-control my-0 py-1 " id="autocomplete" type="text" placeholder="How can I help you?" aria-label="Search">
                 <div class="input-group-append">
-                    <button type="submit" class="input-group-text amber lighten-3" id="basic-text1"><i class="fa fa-search"
-                                                                                                       aria-hidden="true"></i></button>
+                    <button type="submit" class="input-group-text amber lighten-3" onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value)"><i class="fa fa-search"> </i></button>
                 </div>
             </div>
         </div>
         <div class="col-sm-6">
-            <div class="input-group md-form form-sm form-2 pl-0">
-                <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Keywords" aria-label="Search">
-            </div>
+            <span id="keywords"> Keyword History: &nbsp;</span>
         </div>
     </div>
     <div class="row">
@@ -47,7 +45,7 @@
             </div>
         </div>
         <div class="col-sm-6">
-            <p> Bar chart </p>
+            <p> BC</p>
         </div>
     </div>
 </div>
