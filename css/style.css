@@ -1,24 +1,30 @@
 
 body{
   font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
 }
 .row {
   width: 100%;
-  padding: 5px;
+  padding: 2px;
 }
 
 .column{
   float: left;
   width: 50%;
-}
-
-.container{
   padding: 5px;
 }
 
+.col-sm{
+  padding: 10px;
+}
+
+.container{
+  padding: 2px;
+}
+
 .form-control{
-  border: 2px solid #6B6FC8;
-  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #6B6FC8;
+  border-radius: 4px 4px 4px 4px;
 }
 
 .input-group-text{
@@ -26,13 +32,13 @@ body{
   background: #6B6FC8;
   text-align: center;
   color: #fff;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 4px 4px 0;
   cursor: pointer;
 }
 
 .btn{
   background: #6B6FC8;
-  border: 5px solid #ffffff;
+  border: 2px solid #ffffff;
 }
 .btn:focus, .btn:hover{
   outline: none !important;
@@ -45,4 +51,33 @@ body{
 
 .btn-info:hover, .btn-info:focus {
   outline: none;
+}
+
+.bs-docs-example
+{
+  position: relative;
+  margin: 5px 5px 5px 5px;
+  padding: 25px 10px 5px;
+  background-color: white;
+  border: 1px solid #6B6FC8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.bs-docs-example::after
+{
+  content: attr(data-content);
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 1px 3px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: whiteSmoke;
+  border: 1px solid #6B6FC8;
+  color: #6B6FC8;
+  -webkit-border-radius: 4px 0 4px 0;
+  -moz-border-radius: 4px 0 4px 0;
+  border-radius: 4px 0 4px 0;
 }

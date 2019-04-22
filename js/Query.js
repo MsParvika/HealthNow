@@ -7,11 +7,12 @@ function add(keyword) {
     element.setAttribute("type", "button");
     element.setAttribute("value", keyword);
     element.setAttribute("name", keyword);
-    element.setAttribute("class", "btn btn-info");
+    element.setAttribute("class", "btn btn-info btn-sm");
     element.setAttribute("id", "backMe");
     //element.setAttribute('onclick','showChart(keyword);');
     element.onclick = function () {
-        showChart(keyword)
+        showChart(keyword);
+        show_time_series(keyword);
     };
 
     var foo = document.getElementById("keywords");
@@ -28,6 +29,4 @@ function add(keyword) {
             foo.appendChild(element); //Append the element in page (in span).
         }
     }
-
-    show_time_series(keyword);
 }

@@ -1,204 +1,9931 @@
 {
-  "thicken" : {
-    "nodes": [
-      {
-        "id": "thicken",
-        "freq": 1,
-        "group" : 5
-      },
-      {
-        "id": "suicidal",
-        "freq": 2,
-        "group" : 7
-      },
-      {
-        "id": "skin",
-        "freq": 2,
-        "group" : 2
-      },
-      {
-        "id": "treatments",
-        "freq": 2,
-        "group" : 9
-      },
-      {
-        "id": "men",
-        "freq": 2,
-        "group" : 10
-      },
-      {
-        "id": "help",
-        "freq": 2,
-        "group" : 1
-      },
-      {
-        "id": "results",
-        "freq": 2,
-        "group" : 7
-      },
-      {
-        "id": "hair",
-        "freq": 2,
-        "group" : 9
-      },
-      {
-        "id": "women",
-        "freq": 2,
-        "group" : 7
-      },
-      {
-        "id": "way",
-        "freq": 2,
-        "group" : 7
-      }
-    ],
+  "Symptom": {
     "links": [
       {
-        "source": "thicken",
-        "target": "suicidal",
+        "source": "Pain",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "help",
+        "source": "Ache",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "men",
+        "source": "Fever",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "results",
+        "source": "Headache",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "way",
+        "source": "Cough",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "hair",
+        "source": "Nausea",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "women",
+        "source": "Diarrhea",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "skin",
+        "source": "Swelling",
+        "target": "Symptom",
         "value": 1
       },
       {
-        "source": "thicken",
-        "target": "treatments",
+        "source": "Fatigue",
+        "target": "Symptom",
         "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Symptom",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Symptom"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Dizziness"
       }
     ]
   },
-
-  "suicidal": {
-    "nodes": [
-      {
-        "id": "suicidal",
-        "freq": 1,
-        "group" : 7
-      },
-      {
-        "id": "depression",
-        "freq": 2,
-        "group" : 2
-      },
-      {
-        "id": "thoughts",
-        "freq": 2,
-        "group" : 5
-      },
-      {
-        "id": "symptoms",
-        "freq": 2,
-        "group" : 6
-      },
-      {
-        "id": "problems",
-        "freq": 2,
-        "group" : 5
-      },
-      {
-        "id": "effects",
-        "freq": 2,
-        "group" : 5
-      },
-      {
-        "id": "doctor",
-        "freq": 2,
-        "group" : 6
-      },
-      {
-        "id": "time",
-        "freq": 2,
-        "group" : 2
-      },
-      {
-        "id": "medication",
-        "freq": 2,
-        "group" : 10
-      },
-      {
-        "id": "feelings",
-        "freq": 2,
-        "group" : 3
-      }
-    ],
+  "Abortion": {
     "links": [
       {
-        "source": "suicidal",
-        "target": "depression",
+        "source": "Pain",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "thoughts",
+        "source": "Nausea",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "symptoms",
+        "source": "Vomiting",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "problems",
+        "source": "Thicken",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "effects",
+        "source": "Headache",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "doctor",
+        "source": "Fatigue",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "time",
+        "source": "Fall",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "medication",
+        "source": "Dizziness",
+        "target": "Abortion",
         "value": 1
       },
       {
-        "source": "suicidal",
-        "target": "feelings",
+        "source": "Constipation",
+        "target": "Abortion",
         "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Abortion",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Abortion"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Thicken"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Achalasia": {
+    "links": [
+      {
+        "source": "Thicken",
+        "target": "Achalasia",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Achalasia",
+        "value": 1
+      },
+      {
+        "source": "Asthenia",
+        "target": "Achalasia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Achalasia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Thicken"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Asthenia"
+      }
+    ]
+  },
+  "Ache": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Ache",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Ache",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Ache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Tremor"
+      }
+    ]
+  },
+  "Agitation": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Agitation",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Agitation",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Agitation"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      }
+    ]
+  },
+  "Anorexia": {
+    "links": [
+      {
+        "source": "Fall",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Underweight",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Thicken",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Hunger",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Anorexia",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Anorexia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Anorexia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Underweight"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Thicken"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Hunger"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Ascites": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Intoxication",
+        "target": "Ascites",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Ascites",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Ascites"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Intoxication"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Asthenia": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Asthenia",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Asthenia",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Asthenia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Asthenia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Asymptomatic": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Erythema",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Vertigo",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Asymptomatic",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Asymptomatic",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Asymptomatic"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Erythema"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Redness"
+      }
+    ]
+  },
+  "Ataxia": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Myoclonus",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Mydriasis",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Disequilibrium",
+        "target": "Ataxia",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Ataxia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Ataxia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Myoclonus"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Mydriasis"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Disequilibrium"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      }
+    ]
+  },
+  "Aura": {
+    "links": [
+      {
+        "source": "Headache",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Vertigo",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Panic",
+        "target": "Aura",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Aura",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Aura"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Panic"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Left "
+      }
+    ]
+  },
+  "Bedridden": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Bedridden",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Bedridden",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Bedridden"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Drowsiness"
+      }
+    ]
+  },
+  "Blanch": {
+    "links": [
+      {
+        "source": "Redness",
+        "target": "Blanch",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Blanch",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Blanch"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      }
+    ]
+  },
+  "Bradycardia": {
+    "links": [
+      {
+        "source": "Lethargy",
+        "target": "Bradycardia",
+        "value": 1
+      },
+      {
+        "source": "Hypotension",
+        "target": "Bradycardia",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Bradycardia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Bradycardia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Lethargy"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Hypotension"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Bradykinesia": {
+    "links": [
+      {
+        "source": "Tremor",
+        "target": "Bradykinesia",
+        "value": 1
+      },
+      {
+        "source": "Stiffness",
+        "target": "Bradykinesia",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Bradykinesia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Bradykinesia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Stiffness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      }
+    ]
+  },
+  "Bruit": {
+    "links": [
+      {
+        "source": "Swelling",
+        "target": "Bruit",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Bruit",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Bruit",
+        "value": 1
+      },
+      {
+        "source": "Ascites",
+        "target": "Bruit",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Bruit",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Bruit"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ascites"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Cardiomegaly": {
+    "links": [],
+    "nodes": [
+      {
+        "freq": 10,
+        "group": 1,
+        "id": "Cardiomegaly"
+      }
+    ]
+  },
+  "Chill": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Chill",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Chill",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Chill",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Chill",
+        "value": 1
+      },
+      {
+        "source": "Lesion",
+        "target": "Chill",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Chill",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Chill",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Chill"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Lesion"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Headache"
+      }
+    ]
+  },
+  "Choke": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Choke",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Choke",
+        "value": 1
+      },
+      {
+        "source": "Chill",
+        "target": "Choke",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Choke"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Chill"
+      }
+    ]
+  },
+  "Clumsiness": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Clumsiness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Clumsiness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Clumsiness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Constipation": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Constipation",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Constipation",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Constipation"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      }
+    ]
+  },
+  "Cough": {
+    "links": [
+      {
+        "source": "Fever",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Sneeze",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Wheezing",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Cough",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Cough",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Cough"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Sneeze"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Wheezing"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Difficulty"
+      }
+    ]
+  },
+  "Cyanosis": {
+    "links": [
+      {
+        "source": "Cough",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Tachypnea",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Chill",
+        "target": "Cyanosis",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Cyanosis",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Cyanosis"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Tachypnea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Chill"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Diarrhea": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Diarrhea",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Diarrhea",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Difficulty": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Difficulty",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Difficulty",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Constipation"
+      }
+    ]
+  },
+  "Disequilibrium": {
+    "links": [
+      {
+        "source": "Seizure",
+        "target": "Disequilibrium",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Disequilibrium",
+        "value": 1
+      },
+      {
+        "source": "Ataxia",
+        "target": "Disequilibrium",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Disequilibrium"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ataxia"
+      }
+    ]
+  },
+  "Dizziness": {
+    "links": [
+      {
+        "source": "Nausea",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Dizziness",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Dizziness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 19,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Diarrhea"
+      }
+    ]
+  },
+  "Drowsiness": {
+    "links": [
+      {
+        "source": "Dizziness",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Drowsiness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Drowsiness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 19,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Swelling"
+      }
+    ]
+  },
+  "Dullness": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Dullness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Dullness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      }
+    ]
+  },
+  "Dyspareunia": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Pruritus",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Flushing",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Dysuria",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Dyspareunia",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Dyspareunia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Dyspareunia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pruritus"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Flushing"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Dysuria"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Cough"
+      }
+    ]
+  },
+  "Dyspnea": {
+    "links": [
+      {
+        "source": "Wheezing",
+        "target": "Dyspnea",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Dyspnea",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Dyspnea",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Dyspnea",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Dyspnea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Wheezing"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      }
+    ]
+  },
+  "Dysuria": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Dysuria",
+        "value": 1
+      },
+      {
+        "source": "Pruritus",
+        "target": "Dysuria",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Dysuria",
+        "value": 1
+      },
+      {
+        "source": "Dyspareunia",
+        "target": "Dysuria",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Dysuria"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Pruritus"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Dyspareunia"
+      }
+    ]
+  },
+  "Elation": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Agitation",
+        "target": "Elation",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Elation",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Elation"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Agitation"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Enuresis": {
+    "links": [
+      {
+        "source": "Worry",
+        "target": "Enuresis",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Enuresis",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Enuresis"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Left "
+      }
+    ]
+  },
+  "Erythema": {
+    "links": [
+      {
+        "source": "Worry",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Hirsutism",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Erythema",
+        "value": 1
+      },
+      {
+        "source": "Asymptomatic",
+        "target": "Erythema",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Erythema"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Hirsutism"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Asymptomatic"
+      }
+    ]
+  },
+  "Exhaustion": {
+    "links": [
+      {
+        "source": "Fatigue",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Nervousness",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Exhaustion",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Exhaustion",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Exhaustion"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nervousness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      }
+    ]
+  },
+  "Fall": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Fall",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Fall",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Fall"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Nausea"
+      }
+    ]
+  },
+  "Fatigue": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Fatigue",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Fatigue",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fall"
+      }
+    ]
+  },
+  "Fever": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Chill",
+        "target": "Fever",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Fever",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Fever"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Chill"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Flare": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Myalgia",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Thicken",
+        "target": "Flare",
+        "value": 1
+      },
+      {
+        "source": "Stiffness",
+        "target": "Flare",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Flare"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Myalgia"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Thicken"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Stiffness"
+      }
+    ]
+  },
+  "Flatulence": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Vertigo",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Aura",
+        "target": "Flatulence",
+        "value": 1
+      },
+      {
+        "source": "Asymptomatic",
+        "target": "Flatulence",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Flatulence"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Aura"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Asymptomatic"
+      }
+    ]
+  },
+  "Floppy": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Floppy",
+        "value": 1
+      },
+      {
+        "source": "Flare",
+        "target": "Floppy",
+        "value": 1
+      },
+      {
+        "source": "Asthenia",
+        "target": "Floppy",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Floppy"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Flare"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Asthenia"
+      }
+    ]
+  },
+  "Flushing": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Lightheadedness",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Flushing",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Flushing",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Flushing"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Lightheadedness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Redness"
+      }
+    ]
+  },
+  "Frail": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Frail",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Frail",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Frail",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Frail"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Gag": {
+    "links": [
+      {
+        "source": "Choke",
+        "target": "Gag",
+        "value": 1
+      },
+      {
+        "source": "Panic",
+        "target": "Gag",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Gag",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Gag",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Gag"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Choke"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Panic"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Cough"
+      }
+    ]
+  },
+  "Groggy": {
+    "links": [
+      {
+        "source": "Fall",
+        "target": "Groggy",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Groggy",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Groggy"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Haemorrhage": {
+    "links": [
+      {
+        "source": "Cough",
+        "target": "Haemorrhage",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Haemorrhage"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      }
+    ]
+  },
+  "Headache": {
+    "links": [
+      {
+        "source": "Ache",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Headache",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Headache",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Heartburn": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Heartburn",
+        "value": 1
+      },
+      {
+        "source": "Hoarseness",
+        "target": "Heartburn",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Heartburn"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Hoarseness"
+      }
+    ]
+  },
+  "Hematuria": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Hematuria",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Hematuria",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hematuria"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Left "
+      }
+    ]
+  },
+  "Hemiplegia": {
+    "links": [
+      {
+        "source": "Swelling",
+        "target": "Hemiplegia",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Hemiplegia",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Hemiplegia",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Hemiplegia",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Hemiplegia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hemiplegia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Hirsutism": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Erythema",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Asymptomatic",
+        "target": "Hirsutism",
+        "value": 1
+      },
+      {
+        "source": "Ascites",
+        "target": "Hirsutism",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hirsutism"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Erythema"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Asymptomatic"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ascites"
+      }
+    ]
+  },
+  "Hoarseness": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Wheezing",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Heartburn",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Hoarseness",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Hoarseness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hoarseness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Wheezing"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Heartburn"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Dizziness"
+      }
+    ]
+  },
+  "Hunger": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Overweight",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Hunger",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Hunger",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hunger"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Overweight"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Withdraw"
+      }
+    ]
+  },
+  "Hyperemesis": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Hyperemesis",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Hyperemesis",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Hyperemesis",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hyperemesis"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Hyperkalemia": {
+    "links": [
+      {
+        "source": "Nausea",
+        "target": "Hyperkalemia",
+        "value": 1
+      },
+      {
+        "source": "Hypokalemia",
+        "target": "Hyperkalemia",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Hyperkalemia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hyperkalemia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Hypokalemia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Diarrhea"
+      }
+    ]
+  },
+  "Hypersomnia": {
+    "links": [
+      {
+        "source": "Fatigue",
+        "target": "Hypersomnia",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Hypersomnia",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Hypersomnia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hypersomnia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      }
+    ]
+  },
+  "Hyperventilation": {
+    "links": [
+      {
+        "source": "Vertigo",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Tinnitus",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Myalgia",
+        "target": "Hyperventilation",
+        "value": 1
+      },
+      {
+        "source": "Malaise",
+        "target": "Hyperventilation",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hyperventilation"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Tinnitus"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Myalgia"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Malaise"
+      }
+    ]
+  },
+  "Hypokalemia": {
+    "links": [
+      {
+        "source": "Fatigue",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Hyperkalemia",
+        "target": "Hypokalemia",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Hypokalemia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hypokalemia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Hyperkalemia"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Constipation"
+      }
+    ]
+  },
+  "Hyponatremia": {
+    "links": [
+      {
+        "source": "Difficulty",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Hypotension",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Hyponatremia",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Hyponatremia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hyponatremia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Hypotension"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Hypotension": {
+    "links": [
+      {
+        "source": "Lightheadedness",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Syncope",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Sleepy",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Hypotension",
+        "value": 1
+      },
+      {
+        "source": "Myalgia",
+        "target": "Hypotension",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Hypotension"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Lightheadedness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Syncope"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Sleepy"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Myalgia"
+      }
+    ]
+  },
+  "Hypoxemia": {
+    "links": [],
+    "nodes": [
+      {
+        "freq": 10,
+        "group": 1,
+        "id": "Hypoxemia"
+      }
+    ]
+  },
+  "Immobile": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Immobile",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Immobile",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Immobile",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Immobile"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Redness"
+      }
+    ]
+  },
+  "Incoherent": {
+    "links": [
+      {
+        "source": "Withdraw",
+        "target": "Incoherent",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Incoherent"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Withdraw"
+      }
+    ]
+  },
+  "Intoxication": {
+    "links": [
+      {
+        "source": "Withdraw",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Agitation",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Intoxication",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Intoxication",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Intoxication"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Agitation"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      }
+    ]
+  },
+  "Left ": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Left ",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Left ",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Left "
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Lesion": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Prodrome",
+        "target": "Lesion",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Lesion",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Lesion"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Prodrome"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Nausea"
+      }
+    ]
+  },
+  "Lethargy": {
+    "links": [
+      {
+        "source": "Fever",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Wheezing",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Vertigo",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Unwell",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Hypotension",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Lethargy",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Lethargy",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Lethargy"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Wheezing"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Unwell"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Hypotension"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      }
+    ]
+  },
+  "Lightheadedness": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Lightheadedness",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Lightheadedness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Lightheadedness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Drowsiness"
+      }
+    ]
+  },
+  "Malaise": {
+    "links": [
+      {
+        "source": "Fever",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Chill",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Malaise",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Malaise",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Malaise"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Chill"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Swelling"
+      }
+    ]
+  },
+  "Milky": {
+    "links": [
+      {
+        "source": "Worry",
+        "target": "Milky",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Milky"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Worry"
+      }
+    ]
+  },
+  "Moan": {
+    "links": [
+      {
+        "source": "Sweat",
+        "target": "Moan",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Moan"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Moody": {
+    "links": [
+      {
+        "source": "Difficulty",
+        "target": "Moody",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Moody",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Moody",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Moody",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Moody",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Moody"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Elation"
+      }
+    ]
+  },
+  "Myalgia": {
+    "links": [
+      {
+        "source": "Malaise",
+        "target": "Myalgia",
+        "value": 1
+      },
+      {
+        "source": "Hyperventilation",
+        "target": "Myalgia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Myalgia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Malaise"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Hyperventilation"
+      }
+    ]
+  },
+  "Mydriasis": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Myoclonus",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Mydriasis",
+        "value": 1
+      },
+      {
+        "source": "Ataxia",
+        "target": "Mydriasis",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Mydriasis"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Myoclonus"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ataxia"
+      }
+    ]
+  },
+  "Myoclonus": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Mydriasis",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Myoclonus",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Myoclonus",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Myoclonus"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Mydriasis"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Diarrhea"
+      }
+    ]
+  },
+  "Nausea": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Nausea",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Nausea",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 19,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Nervousness": {
+    "links": [
+      {
+        "source": "Nausea",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Nervousness",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Nervousness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Nervousness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Redness"
+      }
+    ]
+  },
+  "Nightmare": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Nightmare",
+        "value": 1
+      },
+      {
+        "source": "Unhappy",
+        "target": "Nightmare",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Nightmare",
+        "value": 1
+      },
+      {
+        "source": "Overweight",
+        "target": "Nightmare",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Nightmare",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Nightmare",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Nightmare",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Nightmare"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Unhappy"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Overweight"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fall"
+      }
+    ]
+  },
+  "Nonsmoker": {
+    "links": [],
+    "nodes": [
+      {
+        "freq": 10,
+        "group": 1,
+        "id": "Nonsmoker"
+      }
+    ]
+  },
+  "Numbness": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Numbness",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Numbness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Numbness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fall"
+      }
+    ]
+  },
+  "Orthopnea": {
+    "links": [
+      {
+        "source": "Swelling",
+        "target": "Orthopnea",
+        "value": 1
+      },
+      {
+        "source": "Rale",
+        "target": "Orthopnea",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Orthopnea",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Orthopnea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Rale"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Left "
+      }
+    ]
+  },
+  "Overweight": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Underweight",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Sedentary",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Overweight",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Overweight",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Overweight"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Underweight"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Sedentary"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      }
+    ]
+  },
+  "Pain": {
+    "links": [
+      {
+        "source": "Swelling",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Pain",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Pain",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 19,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Diarrhea"
+      }
+    ]
+  },
+  "Panic": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Panic",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Panic",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Panic"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Withdraw"
+      }
+    ]
+  },
+  "Paresthesia": {
+    "links": [
+      {
+        "source": "Numbness",
+        "target": "Paresthesia",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Paresthesia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Paresthesia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Numbness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      }
+    ]
+  },
+  "Polymyalgia": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Polymyalgia",
+        "value": 1
+      },
+      {
+        "source": "Myalgia",
+        "target": "Polymyalgia",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Polymyalgia",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Polymyalgia",
+        "value": 1
+      },
+      {
+        "source": "Erythema",
+        "target": "Polymyalgia",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Polymyalgia",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Polymyalgia"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Myalgia"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Erythema"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Elation"
+      }
+    ]
+  },
+  "Polyuria": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Polyuria",
+        "value": 1
+      },
+      {
+        "source": "Hunger",
+        "target": "Polyuria",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Polyuria",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Polyuria",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Polyuria"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Hunger"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Posterior ": {
+    "links": [
+      {
+        "source": "Withdraw",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Stiffness",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Numbness",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Nervousness",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Lesion",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Posterior ",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Posterior ",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Posterior "
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Stiffness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Numbness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Nervousness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Lesion"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fall"
+      }
+    ]
+  },
+  "Prodrome": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Prodrome",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Prodrome",
+        "value": 1
+      },
+      {
+        "source": "Lesion",
+        "target": "Prodrome",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Prodrome",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Prodrome",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Prodrome",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Prodrome"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Lesion"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Prostatism": {
+    "links": [
+      {
+        "source": "Fatigue",
+        "target": "Prostatism",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Prostatism"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Pruritus": {
+    "links": [
+      {
+        "source": "Dysuria",
+        "target": "Pruritus",
+        "value": 1
+      },
+      {
+        "source": "Dyspareunia",
+        "target": "Pruritus",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Pruritus"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dysuria"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dyspareunia"
+      }
+    ]
+  },
+  "Pustule": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Pustule",
+        "value": 1
+      },
+      {
+        "source": "Flare",
+        "target": "Pustule",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Pustule"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Flare"
+      }
+    ]
+  },
+  "Rale": {
+    "links": [
+      {
+        "source": "Elation",
+        "target": "Rale",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Rale",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Rale"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Redness": {
+    "links": [
+      {
+        "source": "Swelling",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Chill",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Lesion",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Redness",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Redness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Redness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 19,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Chill"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Lesion"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Sciatica": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Sciatica",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Sciatica",
+        "value": 1
+      },
+      {
+        "source": "Overweight",
+        "target": "Sciatica",
+        "value": 1
+      },
+      {
+        "source": "Numbness",
+        "target": "Sciatica",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Sciatica",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Sciatica",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Sciatica",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Sciatica"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Overweight"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Numbness"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Scleral ": {
+    "links": [
+      {
+        "source": "Ache",
+        "target": "Scleral ",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Scleral "
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Sedentary": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Overweight",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Sedentary",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Sedentary",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Sedentary"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Overweight"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Seizure": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Seizure",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Seizure",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Seizure"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Drowsiness"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Sleeplessness": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Suicidal",
+        "target": "Sleeplessness",
+        "value": 1
+      },
+      {
+        "source": "Snore",
+        "target": "Sleeplessness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Sleeplessness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Suicidal"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Snore"
+      }
+    ]
+  },
+  "Sleepy": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Sleepy",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Sleepy",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Sleepy"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      }
+    ]
+  },
+  "Sneeze": {
+    "links": [
+      {
+        "source": "Cough",
+        "target": "Sneeze",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Sneeze",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Sneeze",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Sneeze",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Sneeze"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      }
+    ]
+  },
+  "Snore": {
+    "links": [
+      {
+        "source": "Fall",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Sleepy",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Snore",
+        "value": 1
+      },
+      {
+        "source": "Overweight",
+        "target": "Snore",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Snore"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Sleepy"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Overweight"
+      }
+    ]
+  },
+  "Spasm": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Numbness",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Spasm",
+        "value": 1
+      },
+      {
+        "source": "Heartburn",
+        "target": "Spasm",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Spasm"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Numbness"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Heartburn"
+      }
+    ]
+  },
+  "Stiffness": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Numbness",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Stiffness",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Stiffness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Stiffness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Numbness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Vomiting"
+      }
+    ]
+  },
+  "Stupor": {
+    "links": [
+      {
+        "source": "Difficulty",
+        "target": "Stupor",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Stupor",
+        "value": 1
+      },
+      {
+        "source": "Tremor",
+        "target": "Stupor",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Stupor",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Stupor",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Stupor"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Tremor"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fever"
+      }
+    ]
+  },
+  "Suicidal": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Panic",
+        "target": "Suicidal",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Suicidal",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Suicidal"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Panic"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Headache"
+      }
+    ]
+  },
+  "Sweat": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Withdraw",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Sweat",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Sweat",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Sweat"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Vomiting"
+      }
+    ]
+  },
+  "Swelling": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Swelling",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Swelling",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Swelling"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Fatigue"
+      }
+    ]
+  },
+  "Syncope": {
+    "links": [
+      {
+        "source": "Seizure",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Panic",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Lightheadedness",
+        "target": "Syncope",
+        "value": 1
+      },
+      {
+        "source": "Exhaustion",
+        "target": "Syncope",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Syncope"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Sweat"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Spasm"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Panic"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Lightheadedness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Exhaustion"
+      }
+    ]
+  },
+  "Tachypnea": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Tachypnea",
+        "value": 1
+      },
+      {
+        "source": "Cyanosis",
+        "target": "Tachypnea",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Tachypnea",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Tachypnea"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cyanosis"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      }
+    ]
+  },
+  "Thicken": {
+    "links": [
+      {
+        "source": "Panic",
+        "target": "Thicken",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Thicken",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Thicken"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Panic"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      }
+    ]
+  },
+  "Tinnitus": {
+    "links": [
+      {
+        "source": "Vertigo",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Tinnitus",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Tinnitus",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Tinnitus"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Worry"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Dizziness"
+      }
+    ]
+  },
+  "Tremor": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Stiffness",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Tremor",
+        "value": 1
+      },
+      {
+        "source": "Drowsiness",
+        "target": "Tremor",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Tremor"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Stiffness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Drowsiness"
+      }
+    ]
+  },
+  "Underweight": {
+    "links": [
+      {
+        "source": "Overweight",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Anorexia",
+        "target": "Underweight",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Underweight",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Underweight"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Overweight"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Anorexia"
+      },
+      {
+        "freq": 10,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Unhappy": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Unhappy",
+        "value": 1
+      },
+      {
+        "source": "Numbness",
+        "target": "Unhappy",
+        "value": 1
+      },
+      {
+        "source": "Nightmare",
+        "target": "Unhappy",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Unhappy",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Unhappy",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Unhappy",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Unhappy",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Unhappy"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Numbness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Nightmare"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      }
+    ]
+  },
+  "Unresponsiveness": {
+    "links": [
+      {
+        "source": "Fever",
+        "target": "Unresponsiveness",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Unresponsiveness",
+        "value": 1
+      },
+      {
+        "source": "Wheezing",
+        "target": "Unresponsiveness",
+        "value": 1
+      },
+      {
+        "source": "Hoarseness",
+        "target": "Unresponsiveness",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Unresponsiveness",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Unresponsiveness"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Wheezing"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Hoarseness"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Dizziness"
+      }
+    ]
+  },
+  "Unwell": {
+    "links": [
+      {
+        "source": "Vomiting",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Lethargy",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Unwell",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Unwell",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Unwell"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Lethargy"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fall"
+      }
+    ]
+  },
+  "Vertigo": {
+    "links": [
+      {
+        "source": "Dizziness",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Tinnitus",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Hyperventilation",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Aura",
+        "target": "Vertigo",
+        "value": 1
+      },
+      {
+        "source": "Worry",
+        "target": "Vertigo",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Vertigo"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Tinnitus"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Hyperventilation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Aura"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Worry"
+      }
+    ]
+  },
+  "Vomiting": {
+    "links": [
+      {
+        "source": "Nausea",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Constipation",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Vomiting",
+        "value": 1
+      },
+      {
+        "source": "Sweat",
+        "target": "Vomiting",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 17,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Constipation"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Sweat"
+      }
+    ]
+  },
+  "Wheezing": {
+    "links": [
+      {
+        "source": "Cough",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Pain",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Hoarseness",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Vomiting",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Wheezing",
+        "value": 1
+      },
+      {
+        "source": "Spasm",
+        "target": "Wheezing",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Wheezing"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 15,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 14,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Hoarseness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Dizziness"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Vomiting"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Spasm"
+      }
+    ]
+  },
+  "Withdraw": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Withdraw",
+        "value": 1
+      },
+      {
+        "source": "Seizure",
+        "target": "Withdraw",
+        "value": 1
+      },
+      {
+        "source": "Gag",
+        "target": "Withdraw",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Withdraw",
+        "value": 1
+      },
+      {
+        "source": "Agitation",
+        "target": "Withdraw",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Withdraw"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Seizure"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Gag"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 13,
+        "group": 2,
+        "id": "Agitation"
+      }
+    ]
+  },
+  "Worry": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Fall",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Elation",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Left ",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Difficulty",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Redness",
+        "target": "Worry",
+        "value": 1
+      },
+      {
+        "source": "Panic",
+        "target": "Worry",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 21,
+        "group": 1,
+        "id": "Worry"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Fall"
+      },
+      {
+        "freq": 12,
+        "group": 2,
+        "id": "Elation"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Left "
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Difficulty"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Redness"
+      },
+      {
+        "freq": 11,
+        "group": 2,
+        "id": "Panic"
       }
     ]
   }

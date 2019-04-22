@@ -16,10 +16,10 @@ function show_time_series(inp) {
                 name: inp,
                 line: {
                     color: '#17BECF',
-                    width: 4
+                    width: 3
                 },
                 marker: {
-                    size: 8
+                    size: 5
                 },
                 connectgaps: true
             }
@@ -56,13 +56,8 @@ function show_time_series(inp) {
         }
 
         var layout = {
-            autosize: false,
-            width: 800,
+            autosize: true,
             height: 400,
-            title:"Yearly Symptoms Trend ",
-            "titlefont": {
-            "size": 24,
-        },
             yaxis: {
                 title: 'Frequency'
             }
