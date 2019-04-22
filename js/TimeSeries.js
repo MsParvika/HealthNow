@@ -57,12 +57,7 @@ function show_time_series(inp) {
 
         var layout = {
             autosize: true,
-            width: 1200,
             height: 400,
-            title:"Annual Symptoms Trend ",
-            "titlefont": {
-            "size": 15,
-        },
             yaxis: {
                 title: 'Frequency'
             }

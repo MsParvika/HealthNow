@@ -5,7 +5,7 @@ var color = d3.scaleOrdinal().domain([0, 1]).range(['#F18B98', '#6D8DF6']);//(d3
 function showChart(queryKey) {
 
     if (!queryKey) {
-        queryKey = "thicken"
+        queryKey = "Symptom";
     }
 
     var toolTip = d3.select("body")
@@ -74,7 +74,7 @@ function showChart(queryKey) {
                     .data(graph.nodes)
                     .enter().append("circle")
                     .attr("r", function (d) {
-                        return d.freq;
+                        return d.freq+20;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);
@@ -166,7 +166,7 @@ function showChart(queryKey) {
 
                 node
                     .attr("r", function (d) {
-                        return d.freq;
+                        return d.freq+20;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);
