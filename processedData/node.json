@@ -7,7 +7,7 @@
         "group" : 5
       },
       {
-        "id": "use",
+        "id": "suicidal",
         "freq": 2,
         "group" : 7
       },
@@ -55,7 +55,7 @@
     "links": [
       {
         "source": "thicken",
-        "target": "use",
+        "target": "suicidal",
         "value": 1
       },
       {
