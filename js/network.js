@@ -66,7 +66,7 @@ function showChart(queryKey) {
                 .data(graph.nodes)
                 .enter().append("circle")
                 .attr("r", function (d) {
-                    return d.freq*5;
+                    return d.freq;
                 })
                 .attr("fill", function (d) {
                     return color(d.group);
@@ -106,6 +106,11 @@ function showChart(queryKey) {
                 .text(function (d) {
                     return d.id;
                 })
+                .on("click", function (d) {
+                    toolTip.style("visibility", "hidden");
+                    showChart(d.id);
+                    add(d.id);
+                })
                 .on("mouseover", function(d) {
                     d3.select(this).style("opacity", 0);
                     toolTip.text(d.id);
@@ -124,11 +129,6 @@ function showChart(queryKey) {
                         }); */
                     toolTip.style("visibility", "hidden");
                     d3.select(this).style("opacity", 1);
-                })
-                .on("click", function (d) {
-                    toolTip2.style("visibility", "hidden");
-                    showChart(d.id);
-                    add(d.id);
                 });
 
 
@@ -156,7 +156,7 @@ function showChart(queryKey) {
 
                 node
                     .attr("r", function (d) {
-                        return d.freq * 5;
+                        return d.freq;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);
