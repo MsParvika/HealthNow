@@ -28,4 +28,6 @@ function add(keyword) {
             foo.appendChild(element); //Append the element in page (in span).
         }
     }
+
+    show_time_series(keyword);
 }
