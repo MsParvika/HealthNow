@@ -1,6 +1,6 @@
 function show_time_series(symptom) {
 
-    readTextFile("data.json", function(text){
+    readTextFile("ProcessedData/data.json", function(text){
         inp = symptom
         var data = JSON.parse(text);
         var data_inp = data[inp];
