@@ -39,6 +39,19 @@ mdPresentinAns = set()
 for mdd in md:
 	mdPresentinAns.add(mdd)
 mdList = list(mdPresentinAns)
+
+drugnames = set()
+
+m12 = open('drugsComTest_raw.tsv','r')
+m2read = m12.readlines()
+for m2 in m2read:
+		t = m2.split('\t')
+		if len(t) == 7:
+			drugnames.add(t[1])
+m12.close()
+drugnames = list(drugnames)
+mdList += drugnames
+
 #print(mdList)
 for ii in range(0,len(cols),3):
 	t = cols[ii].find('span').contents
@@ -235,9 +248,6 @@ def sym(selectedSymptoms):
 
 	topMed = sorted(mDict.items(), key=lambda kv: (kv[1], kv[0]), reverse=True)
 	#print(topMed)
-
-
-
 	return (nounsOnly[len(selectedSymptoms):], mostLikely, dates, topSym, topMed)
 
 
@@ -247,8 +257,7 @@ i=0
 sym22 = []
 
 
-
-
+final2 = {}
 
 for sym1 in symptomList:
 	try:
@@ -257,18 +266,29 @@ for sym1 in symptomList:
 		#k = len(final["data"])
 		final[str(sym1)]={"keyword":sym1, "top10Keywords":p1[:10], "likelyDiseases":[], "monthsOfPrevalance":{}, "likelySymptoms":[], "likelyMedicines":[]}
 
+		print(len(p4)<10)
+
+
 		for month,val in p3:
-			final[sym1]["monthsOfPrevalance"][month] = val
+			final[str(sym1)]["monthsOfPrevalance"][month] = val
 		
 
 		for dis,val in p2:
-			final[sym1]["likelyDiseases"].append({"disease":dis,"value":val})
+			final[str(sym1)]["likelyDiseases"].append({"disease":dis,"value":val})
 
 		for dis, val in p4:
-			final[sym1]["likelySymptoms"].append({"symptom": dis, "value": val})
+			final[str(sym1)]["likelySymptoms"].append({"symptom": dis, "value": val})
 
 		for dis, val in p5:
-			final[sym1]["likelyMedicines"].append({"medicine": dis, "value": val})
+			final[str(sym1)]["likelyMedicines"].append({"medicine": dis, "value": val})
+
+		final2[str(sym1)] = {"nodes": [], "links": []}
+
+		final2[str(sym1)]["nodes"].append({"id": str(sym1), "group": 1})
+
+		for i in p1[:10]:
+			final2[str(sym1)]["nodes"].append({"id": i, "group": 2})
+			final2[str(sym1)]["links"].append({"source": i, "target": str(sym1), "value": 1})
 
 		sym22.append(sym1)
 	except:
@@ -307,5 +327,11 @@ with open("symptoms_no_freq.txt","w") as symfile:
 	for i in sym22:
 		symfile.write(i+"\n")
 
+
+print(len(data))
+import json
+
+with open('data2.json', 'w') as outfile:
+	json.dump(final2, outfile, sort_keys=True)
 
 
