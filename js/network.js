@@ -1,10 +1,10 @@
-var width = 500;
-var height = 500;
-var color = d3.scaleOrdinal(d3.schemePastel1);
+var width = 400;
+var height = 400;
+var color = d3.scaleOrdinal().domain([0, 1]).range(['#F18B98', '#6D8DF6']);//(d3.schemePastel1);
 
 function showChart(queryKey) {
 
-    if(!queryKey){
+    if (!queryKey) {
         queryKey = "thicken"
     }
 
@@ -14,7 +14,7 @@ function showChart(queryKey) {
         .style("z-index", "10")
         .style("visibility", "hidden")
         .style("color", "white")
-        .style("padding", "8px")
+        .style("padding", "9px")
         .style("background-color", "rgba(0, 0, 0, 0.75)")
         .style("border-radius", "6px")
         .style("font", "10px Georgia")
@@ -25,11 +25,14 @@ function showChart(queryKey) {
 
     svg.selectAll("*").remove();
 
+    /*
     svg.call(
         d3.zoom()
             .scaleExtent([.1, 4])
-            .on("zoom", function() { container.attr("transform", d3.event.transform); })
-    );
+            .on("zoom", function () {
+                container.attr("transform", d3.event.transform);
+            })
+    );*/
 
 
     d3.json("processedData/data2.json").then(function (graph) {
@@ -47,7 +50,9 @@ function showChart(queryKey) {
             )
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force('anti_collide', d3.forceCollide(function (d) {
-                return scaleForRadius(d.freq)+ 5 }));;
+                return scaleForRadius(d.freq) + 5
+            }));
+        ;
 
         function run(graph) {
 
@@ -55,27 +60,30 @@ function showChart(queryKey) {
             });
 
             var link = svg.append("g")
-                .style("stroke", "#aaa")
+                .style("stroke", "#50559E")
+                .style("stroke-width", 1.5)
                 .selectAll("line")
                 .data(graph.links)
                 .enter().append("line");
 
             var node = svg.append("g")
-                .attr("class", "nodes")
-                .selectAll("circle")
-                .data(graph.nodes)
-                .enter().append("circle")
-                .attr("r", function (d) {
-                    return d.freq;
-                })
-                .attr("fill", function (d) {
-                    return color(d.group);
-                })
-                .on("click", function (d) {
-                    toolTip.style("visibility", "hidden");
-                    showChart(d.id);
-                    add(d.id);
-                })
+                    .style("stroke", "#50559E")
+                    .style("stroke-width", 1.5)
+                    .attr("class", "nodes")
+                    .selectAll("circle")
+                    .data(graph.nodes)
+                    .enter().append("circle")
+                    .attr("r", function (d) {
+                        return d.freq;
+                    })
+                    .attr("fill", function (d) {
+                        return color(d.group);
+                    })
+                    .on("click", function (d) {
+                        toolTip.style("visibility", "hidden");
+                        showChart(d.id);
+                        add(d.id);
+                    })
                 /*.on('mouseover', function (d) {
                     toolTip.text(d.id);
                     toolTip.style("visibility", "visible");
@@ -111,7 +119,7 @@ function showChart(queryKey) {
                     showChart(d.id);
                     add(d.id);
                 })
-                .on("mouseover", function(d) {
+                .on("mouseover", function (d) {
                     d3.select(this).style("opacity", 0);
                     toolTip.text(d.id);
                     toolTip.style("visibility", "visible");
@@ -177,8 +185,8 @@ function showChart(queryKey) {
                     .attr("y", function (d) {
                         return d.y;
                     })
-                    .style("text-anchor", "start")
-                    .style("font-size", "10px").style("fill", "#333");
+                    .style("text-anchor", "middle")
+                    .style("font-size", "12px").style("fill", "#333");
 
             }
         }
@@ -199,7 +207,6 @@ function showChart(queryKey) {
             d.fy = d3.event.y
             if (!d3.event.active) simulation.alphaTarget(0);
         }
-
 
 
         run(graph[queryKey])
