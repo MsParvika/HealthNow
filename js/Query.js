@@ -11,7 +11,8 @@ function add(keyword) {
     element.setAttribute("id", "backMe");
     //element.setAttribute('onclick','showChart(keyword);');
     element.onclick = function () {
-        showChart(keyword)
+        showChart(keyword);
+        show_time_series(keyword);
     };
 
     var foo = document.getElementById("keywords");

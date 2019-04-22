@@ -35,7 +35,7 @@ function showChart(queryKey) {
     );*/
 
 
-    d3.json("processedData/data2.json").then(function (graph) {
+    d3.json("processedData/node.json").then(function (graph) {
 
         var scaleForRadius = d3.scaleSqrt().domain([0, 150]).range([0, 50]);
 
@@ -82,6 +82,7 @@ function showChart(queryKey) {
                     .on("click", function (d) {
                         toolTip.style("visibility", "hidden");
                         showChart(d.id);
+                        show_time_series(d.id);
                         add(d.id);
                     })
                 /*.on('mouseover', function (d) {
@@ -117,6 +118,7 @@ function showChart(queryKey) {
                 .on("click", function (d) {
                     toolTip.style("visibility", "hidden");
                     showChart(d.id);
+                    show_time_series(d.id);
                     add(d.id);
                 })
                 .on("mouseover", function (d) {
