@@ -26,12 +26,13 @@ function show_time_series(symptom) {
             }
         ];
 
-        related_keywords = data_inp.top10Keywords;
+        related_keywords = data_inp.top10Symptoms;
 
         for (var ind in related_keywords)
         {
             var related_keyword = related_keywords[ind];
-            console.log(related_keyword);
+            //console.log(related_keyword);
+
             if (related_keyword in data)
             {
                 var data_input = data[related_keyword];
@@ -59,7 +60,10 @@ function show_time_series(symptom) {
             autosize: false,
             width: 800,
             height: 400,
-            title:'Time Series for the selected symptom!',
+            title:"Yearly Symptoms Trend ",
+            "titlefont": {
+            "size": 24,
+        },
             yaxis: {
                 title: 'Frequency'
             }
@@ -98,4 +102,4 @@ function find_vals(time_series_data, months) {
 }
 
 
-show_time_series("diarrhea");
+//show_time_series("diarrhea");
