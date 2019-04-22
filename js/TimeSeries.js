@@ -57,13 +57,14 @@ function show_time_series(inp) {
 
         var layout = {
             autosize: true,
-            height: 400,
+            margin :{'t': 0, 'b': 0},
+            height: 250,
             yaxis: {
                 title: 'Frequency'
             }
         };
 
-        Plotly.newPlot('time_series', plot_data, layout, {displayModeBar: false});
+        Plotly.newPlot('time_series', plot_data, layout,{scrollZoom: true}, {displayModeBar: false});
 
     });
 }
