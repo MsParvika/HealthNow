@@ -1,10 +1,10 @@
 .links line {
-    stroke: #999;
+    stroke: #50559E;
     stroke-opacity: 0.6;
 }
 
 .nodes circle {
-    stroke: #fff;
+    stroke: #50559E;
     stroke-width: 1.5px;
 }
 
@@ -14,15 +14,15 @@ text {
 }
 
 .link {
-    stroke: #aaa;
+    stroke: #50559E;
 }
 
 .node text {
-    stroke:#333;
-    cursos:pointer;
+    stroke:#333333;
+    cursor:pointer;
 }
 
 .node circle{
-    stroke:#fff;
+    stroke:#50559E;
     stroke-width:3px;
 }
