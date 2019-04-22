@@ -1,5 +1,5 @@
-var width = 400;
-var height = 400;
+var width = 500;
+var height = 410;
 var color = d3.scaleOrdinal().domain([0, 1]).range(['#F18B98', '#6D8DF6']);//(d3.schemePastel1);
 
 function showChart(queryKey) {
