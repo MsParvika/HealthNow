@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    showChart("Symptom");
-    show_time_series("Symptom");
+    //showChart("Symptom");
+    //show_time_series("Symptom");
     var topics = [
         "Suicidal",
         "Asymptomatic",
