@@ -2,7 +2,7 @@ function showChart(queryKey) {
 
     var width = 500;
     var height = 410;
-    var color = d3.scaleOrdinal().domain([0, 1]).range(['#ffb24f', '#6D8DF6']);//(d3.schemePastel1);
+    var color = d3.scaleOrdinal().domain([0, 1]).range(['#ffb36d', '#6D8DF6']);//(d3.schemePastel1);
 
 
     if (!queryKey) {
