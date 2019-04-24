@@ -86,6 +86,7 @@ function showChart(queryKey) {
                         show_time_series(d.id);
                         barChart(d.id);
                         add(d.id);
+                        add_details(d.id);
                     })
                 /*.on('mouseover', function (d) {
                     toolTip.text(d.id);
@@ -123,6 +124,7 @@ function showChart(queryKey) {
                     show_time_series(d.id);
                     barChart(d.id);
                     add(d.id);
+                    add_details(d.id);
                 })
                 .on("mouseover", function (d) {
                     d3.select(this).style("opacity", 0);
