@@ -126,8 +126,8 @@ print(symptxt)
 
 
 
-
-
+symptomList = [line.rstrip('\n') for line in open("symptoms.txt")]
+print(symptomList)
 # Selected Symptoms keep updating on selection
 
 def sym(selectedSymptoms):
@@ -259,14 +259,20 @@ sym22 = []
 
 final2 = {}
 
+
+if("" in symptomList):
+	symptomList.remove(symptomList.index(""))
+
 for sym1 in symptomList:
 	try:
 		p1, p2 , p3, p4, p5 = sym([sym1.strip().lower()])
 		#print(p3)
 		#k = len(final["data"])
+
+
 		final[str(sym1)]={"keyword":sym1, "top10Keywords":p1[:10], "likelyDiseases":[], "monthsOfPrevalance":{}, "likelySymptoms":[], "likelyMedicines":[]}
 
-		print(len(p4)<10)
+		#print(len(p4)<10)
 
 
 		for month,val in p3:
@@ -276,7 +282,14 @@ for sym1 in symptomList:
 		for dis,val in p2:
 			final[str(sym1)]["likelyDiseases"].append({"disease":dis,"value":val})
 
+
+		i=0
+
 		for dis, val in p4:
+			if (str(dis) == str(sym1)):
+				continue
+			if(val>i):
+				i=val
 			final[str(sym1)]["likelySymptoms"].append({"symptom": dis, "value": val})
 
 		for dis, val in p5:
@@ -284,12 +297,17 @@ for sym1 in symptomList:
 
 		final2[str(sym1)] = {"nodes": [], "links": []}
 
-		final2[str(sym1)]["nodes"].append({"id": str(sym1), "group": 1})
+		final2[str(sym1)]["nodes"].append({"id": str(sym1), "group": 1, "freq":i+1})
 
-		for i in p1[:10]:
-			final2[str(sym1)]["nodes"].append({"id": i, "group": 2})
-			final2[str(sym1)]["links"].append({"source": i, "target": str(sym1), "value": 1})
-
+		for k,v in p4:
+			if (k == "vertigo"):
+				print("Hello")
+			if (str(k) == str(sym1)):
+				if(k=="vertigo"):
+					print("Hello")
+				continue
+			final2[str(sym1)]["nodes"].append({"id": k, "group": 2, "freq":v})
+			final2[str(sym1)]["links"].append({"source": k, "target": str(sym1), "value": 1})
 		sym22.append(sym1)
 	except:
 		#traceback.print_exc()
