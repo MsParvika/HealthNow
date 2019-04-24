@@ -11,6 +11,7 @@
     <script src='js/autoComplete.js'></script>
     <script src='js/Query.js'></script>
     <script src="js/network.js"></script>
+    <script src="js/barChart.js"></script>
     <script src="js/plotly-latest.min.js"></script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -34,16 +35,16 @@
                 <div class="input-group md-form form-sm form-2 pl-0">
                     <input class="form-control my-0 py-1 " id="autocomplete" type="text"
                            placeholder="How are you feeling today?" aria-label="Search">
-                    <div class="input-group-append" >
+                    <div class="input-group-append">
                         <button type="submit" class="input-group-text amber lighten-3"
-                                onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value);show_time_series(document.getElementById('autocomplete').value)">
+                                onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value);show_time_series(document.getElementById('autocomplete').value);barChart(document.getElementById('autocomplete').value)">
                             <i class="fa fa-search"> </i></button>
                     </div>
                 </div>
             </div>
             <div class="col-sm  bs-docs-example " data-content="Symptoms Relation">
-                    <br>
-                    <svg id='network'></svg>
+                <br>
+                <svg id='network'></svg>
             </div>
         </div>
         <div class="column">
@@ -52,7 +53,13 @@
             </div>
 
             <div class="col-sm  bs-docs-example " data-content="Categories">
-                <p> Bar Chart </p>
+                <span>
+                    <button class="btn btn-info btn-sm" id="symptomBtn" >Symptoms</button>
+                    <button class="btn btn-info btn-sm" id="diseaseBtn" >Diseases</button>
+                    <button class="btn btn-info btn-sm" id="medicineBtn" >Medicines</button>
+                </span>
+                <br>
+                <svg id='barChart'></svg>
             </div>
             <div class="col-sm  bs-docs-example" data-content="Details">
                 <p> Q and A </p>

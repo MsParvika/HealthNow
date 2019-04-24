@@ -1,8 +1,9 @@
-var width = 500;
-var height = 410;
-var color = d3.scaleOrdinal().domain([0, 1]).range(['#F18B98', '#6D8DF6']);//(d3.schemePastel1);
-
 function showChart(queryKey) {
+
+    var width = 500;
+    var height = 410;
+    var color = d3.scaleOrdinal().domain([0, 1]).range(['#F18B98', '#6D8DF6']);//(d3.schemePastel1);
+
 
     if (!queryKey) {
         queryKey = "Symptom";
@@ -83,6 +84,7 @@ function showChart(queryKey) {
                         toolTip.style("visibility", "hidden");
                         showChart(d.id);
                         show_time_series(d.id);
+                        barChart(d.id);
                         add(d.id);
                     })
                 /*.on('mouseover', function (d) {
@@ -119,6 +121,7 @@ function showChart(queryKey) {
                     toolTip.style("visibility", "hidden");
                     showChart(d.id);
                     show_time_series(d.id);
+                    barChart(d.id);
                     add(d.id);
                 })
                 .on("mouseover", function (d) {
