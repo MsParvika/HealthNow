@@ -6,7 +6,7 @@ function add_details(keyword) {
         element.setAttribute("href", data[keyword].url);
         element.innerHTML = "More Info"
 
-        document.getElementById("details2").appendChild(element);
+        document.getElementById("details2").replaceWith(element);
     });
     
 }
