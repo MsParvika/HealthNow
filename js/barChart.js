@@ -12,16 +12,16 @@ function barChart(keyword) {
         myfunc(keyword, 'likelyMedicines', 'medicine');
     };
 
-    var width = 520;
-    var height = 350;
-    var margin = {top: 20, bottom: 70, left: 25, right: 20};
+    var width = 530;
+    var height = 150;
+    var margin = {top: 20, bottom: 70, left: 28, right: 20};
 
     var svg = d3.select('#barChart')
         //.append('svg')
         .attr('height', height)
         .attr('width', width)
         //.append("g")
-        .attr('transform', 'translate(0,0)');
+        .attr('transform', 'translate(0,20)');
 
     myfunc(keyword, 'likelySymptoms', 'symptom');
 
@@ -51,17 +51,17 @@ function barChart(keyword) {
             }
 
             var xScale = d3.scaleBand()
-                .rangeRound([0, width])
+                .rangeRound([0, width-margin.right])
                 .padding(0.1).domain(data.map(function (d) {
                     return d[sdm];
                 }));
 
             var yScale = d3.scaleLinear()
-                .rangeRound([height, 0]).domain([0, d3.max(data, function (d) {
-                    return Number(d.value * 2);
+                .rangeRound([height, margin.bottom]).domain([0, d3.max(data, function (d) {
+                    return Number(d.value );
                 })]);
 
-            var yAxis = d3.axisLeft().scale(yScale).ticks(10);
+            var yAxis = d3.axisLeft().scale(yScale).ticks(5);
 
             //var xAxis = d3.axisBottom();
 
@@ -76,8 +76,11 @@ function barChart(keyword) {
                 .attr("transform", "translate("+ margin.left + "," + (height - margin.bottom) + ")")
                 .call(d3.axisBottom(xScale))
                 .selectAll("text")
+                .attr("text-anchor", "middle")
+                .style("font-size", "10px")
+                .attr("font-family", "serif")
+                .style("fill", "black")
                 .attr("transform", "rotate(-90)translate(-30,-15)");
-
 
             //console.log(Math.PI);
 
@@ -91,7 +94,8 @@ function barChart(keyword) {
                 .attr("y", 2)
                 .attr("dy", "15px")
                 .style("text-anchor", "end")
-                .attr("font-family", "Georgia", "serif")
+                .style("font-size", "10px")
+                .attr("font-family", "serif")
                 .style("fill", "black")
                 .text("Frequency");
 
@@ -120,6 +124,20 @@ function barChart(keyword) {
                 .attr("width", xScale.bandwidth())
                 .attr("height", function (d) {
                     return height - yScale(Number(d.value));
+                })
+                .append("text")
+                .attr("class", "label")
+                .style("font-size", "10px")
+                .attr("font-family", "serif")
+                .style("fill", "black")
+                .attr("y", function (d) {
+                    return yScale(d.value);
+                })
+                .attr("x", function (d) {
+                    return xScale(d[sdm]) + 3;
+                })
+                .text(function (d) {
+                    return d[sdm];
                 });
         });
 
