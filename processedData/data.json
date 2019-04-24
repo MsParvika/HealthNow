@@ -169,23 +169,23 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 16
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 8
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 2
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 2
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 2
       },
       {
@@ -193,83 +193,83 @@
         "value": 2
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 2
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 1
       },
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 1
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 1
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 1
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Lasix oral",
+        "medicine": "Lasix",
         "value": 1
       },
       {
-        "medicine": "Hydroxyzine hcl oral",
+        "medicine": "Hydroxyzine hcl",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
-        "medicine": "Concerta oral",
+        "medicine": "Concerta",
         "value": 1
       },
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 1
       },
       {
-        "medicine": "Atenolol oral",
+        "medicine": "Atenolol",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -722,47 +722,47 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Vyvanse oral",
+        "medicine": "Vyvanse",
         "value": 1
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 1
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       }
     ],
@@ -899,31 +899,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 2
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 2
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 1
       },
       {
-        "medicine": "Lexapro oral",
+        "medicine": "Lexapro",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -1208,7 +1208,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -1425,7 +1425,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -1577,7 +1577,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
@@ -1585,7 +1585,7 @@
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       }
     ],
@@ -1682,15 +1682,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Lamictal oral",
+        "medicine": "Lamictal",
         "value": 1
       },
       {
-        "medicine": "Keppra oral",
+        "medicine": "Keppra",
         "value": 1
       },
       {
-        "medicine": "Depakote oral",
+        "medicine": "Depakote",
         "value": 1
       }
     ],
@@ -1795,11 +1795,11 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       }
     ],
@@ -1840,7 +1840,7 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       }
     ],
@@ -1882,15 +1882,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zanaflex oral",
+        "medicine": "Zanaflex",
         "value": 1
       },
       {
-        "medicine": "Tizanidine oral",
+        "medicine": "Tizanidine",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       }
     ],
@@ -2064,7 +2064,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 1
       }
     ],
@@ -2134,7 +2134,7 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -2193,7 +2193,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       }
     ],
@@ -2446,167 +2446,167 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 5
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 5
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 4
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 3
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 2
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 2
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 2
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 2
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 2
       },
       {
-        "medicine": "Nexium oral",
+        "medicine": "Nexium",
         "value": 2
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 2
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 2
       },
       {
-        "medicine": "Levothyroxine oral",
+        "medicine": "Levothyroxine",
         "value": 2
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 2
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 2
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 2
       },
       {
-        "medicine": "Zocor oral",
+        "medicine": "Zocor",
         "value": 1
       },
       {
-        "medicine": "Tricor oral",
+        "medicine": "Tricor",
         "value": 1
       },
       {
-        "medicine": "Trazodone oral",
+        "medicine": "Trazodone",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 1
       },
       {
-        "medicine": "Topamax oral",
+        "medicine": "Topamax",
         "value": 1
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Protonix oral",
+        "medicine": "Protonix",
         "value": 1
       },
       {
-        "medicine": "Propranolol oral",
+        "medicine": "Propranolol",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Pantoprazole oral",
+        "medicine": "Pantoprazole",
         "value": 1
       },
       {
-        "medicine": "Oxycontin oral",
+        "medicine": "Oxycontin",
         "value": 1
       },
       {
-        "medicine": "Norvasc oral",
+        "medicine": "Norvasc",
         "value": 1
       },
       {
-        "medicine": "Norco oral",
+        "medicine": "Norco",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Lipitor oral",
+        "medicine": "Lipitor",
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Crestor oral",
+        "medicine": "Crestor",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 1
       }
     ],
@@ -2901,15 +2901,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 7
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 6
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 3
       },
       {
@@ -2917,71 +2917,71 @@
         "value": 3
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 3
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 2
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 2
       },
       {
-        "medicine": "Bupropion hcl oral",
+        "medicine": "Bupropion hcl",
         "value": 2
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 2
       },
       {
-        "medicine": "Plavix oral",
+        "medicine": "Plavix",
         "value": 1
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 1
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Keflex oral",
+        "medicine": "Keflex",
         "value": 1
       },
       {
-        "medicine": "Concerta oral",
+        "medicine": "Concerta",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Benzonatate oral",
+        "medicine": "Benzonatate",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Azithromycin oral",
+        "medicine": "Azithromycin",
         "value": 1
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 1
       }
     ],
@@ -3417,199 +3417,199 @@
         "value": 13
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 8
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 5
       },
       {
-        "medicine": "Azithromycin oral",
+        "medicine": "Azithromycin",
         "value": 5
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 4
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 3
       },
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 3
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 3
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 3
       },
       {
-        "medicine": "Nexium oral",
+        "medicine": "Nexium",
         "value": 3
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 3
       },
       {
-        "medicine": "Augmentin oral",
+        "medicine": "Augmentin",
         "value": 3
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 2
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 2
       },
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 2
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 2
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 2
       },
       {
-        "medicine": "Zofran oral",
+        "medicine": "Zofran",
         "value": 1
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 1
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 1
       },
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 1
       },
       {
-        "medicine": "Trazodone oral",
+        "medicine": "Trazodone",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Protonix oral",
+        "medicine": "Protonix",
         "value": 1
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 1
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 1
       },
       {
-        "medicine": "Pantoprazole oral",
+        "medicine": "Pantoprazole",
         "value": 1
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Lipitor oral",
+        "medicine": "Lipitor",
         "value": 1
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 1
       },
       {
-        "medicine": "Keflex oral",
+        "medicine": "Keflex",
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
-        "medicine": "Flagyl oral",
+        "medicine": "Flagyl",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 1
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 1
       },
       {
-        "medicine": "Ciprofloxacin oral",
+        "medicine": "Ciprofloxacin",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       }
     ],
@@ -4032,11 +4032,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 8
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 4
       },
       {
@@ -4044,99 +4044,99 @@
         "value": 4
       },
       {
-        "medicine": "Concerta oral",
+        "medicine": "Concerta",
         "value": 3
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 2
       },
       {
-        "medicine": "Lexapro oral",
+        "medicine": "Lexapro",
         "value": 2
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 2
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 2
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 1
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Meclizine oral",
+        "medicine": "Meclizine",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 1
       },
       {
-        "medicine": "Levothyroxine oral",
+        "medicine": "Levothyroxine",
         "value": 1
       },
       {
-        "medicine": "Lasix oral",
+        "medicine": "Lasix",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       }
     ],
@@ -4608,119 +4608,119 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 4
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 3
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 3
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 2
       },
       {
-        "medicine": "Ultram oral",
+        "medicine": "Ultram",
         "value": 2
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 2
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 2
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 2
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 2
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 2
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 2
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 2
       },
       {
-        "medicine": "Flagyl oral",
+        "medicine": "Flagyl",
         "value": 2
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 2
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 2
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 2
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 2
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 1
       },
       {
-        "medicine": "Meclizine oral",
+        "medicine": "Meclizine",
         "value": 1
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 1
       },
       {
-        "medicine": "Hydrochlorothiazide oral",
+        "medicine": "Hydrochlorothiazide",
         "value": 1
       },
       {
-        "medicine": "Geodon oral",
+        "medicine": "Geodon",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
@@ -4728,27 +4728,27 @@
         "value": 1
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 1
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 1
       },
       {
-        "medicine": "Augmentin oral",
+        "medicine": "Augmentin",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       }
     ],
@@ -5087,183 +5087,183 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 12
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 5
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 4
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 4
       },
       {
-        "medicine": "Zolpidem oral",
+        "medicine": "Zolpidem",
         "value": 3
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 3
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 3
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 3
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 3
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 3
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 3
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 3
       },
       {
-        "medicine": "Singulair oral",
+        "medicine": "Singulair",
         "value": 2
       },
       {
-        "medicine": "Seroquel oral",
+        "medicine": "Seroquel",
         "value": 2
       },
       {
-        "medicine": "Propranolol oral",
+        "medicine": "Propranolol",
         "value": 2
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 2
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 2
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 2
       },
       {
-        "medicine": "Meclizine oral",
+        "medicine": "Meclizine",
         "value": 2
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 2
       },
       {
-        "medicine": "Lexapro oral",
+        "medicine": "Lexapro",
         "value": 2
       },
       {
-        "medicine": "Hydroxyzine hcl oral",
+        "medicine": "Hydroxyzine hcl",
         "value": 2
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 2
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 2
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 1
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Venlafaxine oral",
+        "medicine": "Venlafaxine",
         "value": 1
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Promethazine oral",
+        "medicine": "Promethazine",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Phenergan oral",
+        "medicine": "Phenergan",
         "value": 1
       },
       {
-        "medicine": "Oxycontin oral",
+        "medicine": "Oxycontin",
         "value": 1
       },
       {
-        "medicine": "Nortriptyline oral",
+        "medicine": "Nortriptyline",
         "value": 1
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 1
       },
       {
-        "medicine": "Lorazepam oral",
+        "medicine": "Lorazepam",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone-acetaminophen oral",
+        "medicine": "Hydrocodone-acetaminophen",
         "value": 1
       },
       {
-        "medicine": "Hydrochlorothiazide oral",
+        "medicine": "Hydrochlorothiazide",
         "value": 1
       },
       {
-        "medicine": "Geodon oral",
+        "medicine": "Geodon",
         "value": 1
       },
       {
@@ -5271,59 +5271,59 @@
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
-        "medicine": "Flagyl oral",
+        "medicine": "Flagyl",
         "value": 1
       },
       {
-        "medicine": "Elavil oral",
+        "medicine": "Elavil",
         "value": 1
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Digoxin oral",
+        "medicine": "Digoxin",
         "value": 1
       },
       {
-        "medicine": "Cyclobenzaprine oral",
+        "medicine": "Cyclobenzaprine",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       },
       {
-        "medicine": "Citalopram oral",
+        "medicine": "Citalopram",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Atenolol oral",
+        "medicine": "Atenolol",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -5597,7 +5597,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -5815,15 +5815,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 2
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 1
       }
     ],
@@ -5949,7 +5949,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -6027,7 +6027,7 @@
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -6140,15 +6140,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       }
     ],
@@ -6403,11 +6403,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 8
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 6
       },
       {
@@ -6415,71 +6415,71 @@
         "value": 6
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 3
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 3
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 2
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 2
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 2
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 2
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 1
       },
       {
-        "medicine": "Seroquel oral",
+        "medicine": "Seroquel",
         "value": 1
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       },
       {
-        "medicine": "Lamictal oral",
+        "medicine": "Lamictal",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       }
     ],
@@ -6878,11 +6878,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 5
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 4
       },
       {
@@ -6890,43 +6890,43 @@
         "value": 4
       },
       {
-        "medicine": "Ultram oral",
+        "medicine": "Ultram",
         "value": 2
       },
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 2
       },
       {
-        "medicine": "Levothyroxine oral",
+        "medicine": "Levothyroxine",
         "value": 2
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Phentermine oral",
+        "medicine": "Phentermine",
         "value": 1
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Levaquin oral",
+        "medicine": "Levaquin",
         "value": 1
       },
       {
@@ -6934,35 +6934,35 @@
         "value": 1
       },
       {
-        "medicine": "Flomax oral",
+        "medicine": "Flomax",
         "value": 1
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 1
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 1
       },
       {
-        "medicine": "Benicar oral",
+        "medicine": "Benicar",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       }
     ],
@@ -7461,7 +7461,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 41
       },
       {
@@ -7469,59 +7469,59 @@
         "value": 11
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 6
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 5
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 5
       },
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 3
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 3
       },
       {
-        "medicine": "Ciprofloxacin oral",
+        "medicine": "Ciprofloxacin",
         "value": 2
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 2
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 1
       },
       {
-        "medicine": "Singulair oral",
+        "medicine": "Singulair",
         "value": 1
       },
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 1
       },
       {
-        "medicine": "Meloxicam oral",
+        "medicine": "Meloxicam",
         "value": 1
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 1
       },
       {
@@ -7529,27 +7529,27 @@
         "value": 1
       },
       {
-        "medicine": "Concerta oral",
+        "medicine": "Concerta",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Azithromycin oral",
+        "medicine": "Azithromycin",
         "value": 1
       },
       {
-        "medicine": "Augmentin oral",
+        "medicine": "Augmentin",
         "value": 1
       },
       {
-        "medicine": "Amlodipine oral",
+        "medicine": "Amlodipine",
         "value": 1
       },
       {
@@ -7557,7 +7557,7 @@
         "value": 1
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 1
       }
     ],
@@ -7868,11 +7868,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 2
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 1
       },
       {
@@ -7880,7 +7880,7 @@
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       }
     ],
@@ -8029,7 +8029,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 2
       }
     ],
@@ -8179,35 +8179,35 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zocor oral",
+        "medicine": "Zocor",
         "value": 1
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Tricor oral",
+        "medicine": "Tricor",
         "value": 1
       },
       {
-        "medicine": "Savella oral",
+        "medicine": "Savella",
         "value": 1
       },
       {
-        "medicine": "Norvasc oral",
+        "medicine": "Norvasc",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Lipitor oral",
+        "medicine": "Lipitor",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
@@ -8215,19 +8215,19 @@
         "value": 1
       },
       {
-        "medicine": "Crestor oral",
+        "medicine": "Crestor",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 1
       }
     ],
@@ -8404,7 +8404,7 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -8449,7 +8449,7 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 1
       },
       {
@@ -8511,11 +8511,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       }
     ],
@@ -8678,43 +8678,43 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 10
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 8
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 5
       },
       {
-        "medicine": "Topamax oral",
+        "medicine": "Topamax",
         "value": 4
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 4
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 2
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Propranolol oral",
+        "medicine": "Propranolol",
         "value": 2
       },
       {
-        "medicine": "Phentermine oral",
+        "medicine": "Phentermine",
         "value": 2
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 2
       },
       {
@@ -8722,91 +8722,91 @@
         "value": 2
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Zocor oral",
+        "medicine": "Zocor",
         "value": 1
       },
       {
-        "medicine": "Vyvanse oral",
+        "medicine": "Vyvanse",
         "value": 1
       },
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 1
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Ultram oral",
+        "medicine": "Ultram",
         "value": 1
       },
       {
-        "medicine": "Tricor oral",
+        "medicine": "Tricor",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Singulair oral",
+        "medicine": "Singulair",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Phenergan oral",
+        "medicine": "Phenergan",
         "value": 1
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 1
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 1
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Norvasc oral",
+        "medicine": "Norvasc",
         "value": 1
       },
       {
-        "medicine": "Metoclopramide oral",
+        "medicine": "Metoclopramide",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Lipitor oral",
+        "medicine": "Lipitor",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 1
       },
       {
@@ -8814,31 +8814,31 @@
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
-        "medicine": "Depakote oral",
+        "medicine": "Depakote",
         "value": 1
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 1
       },
       {
-        "medicine": "Crestor oral",
+        "medicine": "Crestor",
         "value": 1
       },
       {
-        "medicine": "Citalopram oral",
+        "medicine": "Citalopram",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -9173,63 +9173,63 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 6
       },
       {
-        "medicine": "Protonix oral",
+        "medicine": "Protonix",
         "value": 3
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 3
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 3
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 2
       },
       {
-        "medicine": "Nexium oral",
+        "medicine": "Nexium",
         "value": 2
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 1
       },
       {
-        "medicine": "Trazodone oral",
+        "medicine": "Trazodone",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Pantoprazole oral",
+        "medicine": "Pantoprazole",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
-        "medicine": "Clindamycin hcl oral",
+        "medicine": "Clindamycin hcl",
         "value": 1
       }
     ],
@@ -9404,15 +9404,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 2
       },
       {
-        "medicine": "Plavix oral",
+        "medicine": "Plavix",
         "value": 1
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 1
       }
     ],
@@ -9625,19 +9625,19 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Hydroxyzine hcl oral",
+        "medicine": "Hydroxyzine hcl",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       }
     ],
@@ -9820,7 +9820,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Phentermine oral",
+        "medicine": "Phentermine",
         "value": 1
       }
     ],
@@ -10033,11 +10033,11 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       }
     ],
@@ -10106,15 +10106,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -10365,19 +10365,19 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zanaflex oral",
+        "medicine": "Zanaflex",
         "value": 1
       },
       {
-        "medicine": "Tizanidine oral",
+        "medicine": "Tizanidine",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       },
       {
-        "medicine": "Amlodipine oral",
+        "medicine": "Amlodipine",
         "value": 1
       }
     ],
@@ -10628,15 +10628,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -10898,11 +10898,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 10
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 7
       },
       {
@@ -10910,147 +10910,147 @@
         "value": 6
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 5
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 2
       },
       {
-        "medicine": "Oxycontin oral",
+        "medicine": "Oxycontin",
         "value": 2
       },
       {
-        "medicine": "Flexeril oral",
+        "medicine": "Flexeril",
         "value": 2
       },
       {
-        "medicine": "Augmentin oral",
+        "medicine": "Augmentin",
         "value": 2
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 1
       },
       {
-        "medicine": "Robaxin oral",
+        "medicine": "Robaxin",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Pravastatin oral",
+        "medicine": "Pravastatin",
         "value": 1
       },
       {
-        "medicine": "Phentermine oral",
+        "medicine": "Phentermine",
         "value": 1
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 1
       },
       {
-        "medicine": "Norco oral",
+        "medicine": "Norco",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Meloxicam oral",
+        "medicine": "Meloxicam",
         "value": 1
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 1
       },
       {
-        "medicine": "Lorazepam oral",
+        "medicine": "Lorazepam",
         "value": 1
       },
       {
-        "medicine": "Lasix oral",
+        "medicine": "Lasix",
         "value": 1
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 1
       },
       {
-        "medicine": "Keflex oral",
+        "medicine": "Keflex",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 1
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 1
       },
       {
-        "medicine": "Clonazepam oral",
+        "medicine": "Clonazepam",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Ativan oral",
+        "medicine": "Ativan",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       }
     ],
@@ -11349,7 +11349,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
@@ -11357,15 +11357,15 @@
         "value": 2
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 2
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 2
       },
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 1
       }
     ],
@@ -11500,15 +11500,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zanaflex oral",
+        "medicine": "Zanaflex",
         "value": 1
       },
       {
-        "medicine": "Tizanidine oral",
+        "medicine": "Tizanidine",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       }
     ],
@@ -11642,31 +11642,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Hydroxyzine hcl oral",
+        "medicine": "Hydroxyzine hcl",
         "value": 1
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       }
     ],
@@ -11886,15 +11886,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       }
     ],
@@ -12073,7 +12073,7 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -12130,11 +12130,11 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       }
     ],
@@ -12178,11 +12178,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       }
     ],
@@ -12266,15 +12266,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       }
     ],
@@ -12506,7 +12506,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 5
       },
       {
@@ -12514,123 +12514,123 @@
         "value": 4
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 3
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 3
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 3
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 3
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 2
       },
       {
-        "medicine": "Zofran oral",
+        "medicine": "Zofran",
         "value": 2
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 2
       },
       {
-        "medicine": "Ultram oral",
+        "medicine": "Ultram",
         "value": 2
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 2
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 2
       },
       {
-        "medicine": "Lorazepam oral",
+        "medicine": "Lorazepam",
         "value": 2
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 2
       },
       {
-        "medicine": "Flagyl oral",
+        "medicine": "Flagyl",
         "value": 2
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 2
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 1
       },
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 1
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 1
       },
       {
-        "medicine": "Tamsulosin oral",
+        "medicine": "Tamsulosin",
         "value": 1
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 1
       },
       {
-        "medicine": "Nexium oral",
+        "medicine": "Nexium",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       },
       {
-        "medicine": "Metoclopramide oral",
+        "medicine": "Metoclopramide",
         "value": 1
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 1
       },
       {
-        "medicine": "Meclizine oral",
+        "medicine": "Meclizine",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Levothyroxine oral",
+        "medicine": "Levothyroxine",
         "value": 1
       },
       {
@@ -12638,43 +12638,43 @@
         "value": 1
       },
       {
-        "medicine": "Flomax oral",
+        "medicine": "Flomax",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 1
       },
       {
-        "medicine": "Clindamycin hcl oral",
+        "medicine": "Clindamycin hcl",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -13033,23 +13033,23 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       }
     ],
@@ -13224,11 +13224,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -13408,31 +13408,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 4
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Hydrochlorothiazide oral",
+        "medicine": "Hydrochlorothiazide",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
-        "medicine": "Furosemide oral",
+        "medicine": "Furosemide",
         "value": 1
       },
       {
@@ -13440,7 +13440,7 @@
         "value": 1
       },
       {
-        "medicine": "Cyclobenzaprine oral",
+        "medicine": "Cyclobenzaprine",
         "value": 1
       }
     ],
@@ -13797,35 +13797,35 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 2
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -14248,39 +14248,39 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 116
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 93
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 33
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 27
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 25
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 22
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 21
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 20
       },
       {
-        "medicine": "Percocet oral",
+        "medicine": "Percocet",
         "value": 17
       },
       {
@@ -14288,379 +14288,379 @@
         "value": 16
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 15
       },
       {
-        "medicine": "Oxycontin oral",
+        "medicine": "Oxycontin",
         "value": 13
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 12
       },
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 10
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 8
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 8
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 7
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 7
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 7
       },
       {
-        "medicine": "Ultram oral",
+        "medicine": "Ultram",
         "value": 6
       },
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 6
       },
       {
-        "medicine": "Carisoprodol oral",
+        "medicine": "Carisoprodol",
         "value": 6
       },
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 5
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 5
       },
       {
-        "medicine": "Norco oral",
+        "medicine": "Norco",
         "value": 5
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 5
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 5
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 5
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 5
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 4
       },
       {
-        "medicine": "Prilosec otc oral",
+        "medicine": "Prilosec otc",
         "value": 4
       },
       {
-        "medicine": "Nexium oral",
+        "medicine": "Nexium",
         "value": 4
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 4
       },
       {
-        "medicine": "Cyclobenzaprine oral",
+        "medicine": "Cyclobenzaprine",
         "value": 4
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 4
       },
       {
-        "medicine": "Robaxin oral",
+        "medicine": "Robaxin",
         "value": 3
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 3
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 3
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 3
       },
       {
-        "medicine": "Keflex oral",
+        "medicine": "Keflex",
         "value": 3
       },
       {
-        "medicine": "Flexeril oral",
+        "medicine": "Flexeril",
         "value": 3
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 3
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 3
       },
       {
-        "medicine": "Ciprofloxacin oral",
+        "medicine": "Ciprofloxacin",
         "value": 3
       },
       {
-        "medicine": "Azithromycin oral",
+        "medicine": "Azithromycin",
         "value": 3
       },
       {
-        "medicine": "Augmentin oral",
+        "medicine": "Augmentin",
         "value": 3
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 3
       },
       {
-        "medicine": "Zolpidem oral",
+        "medicine": "Zolpidem",
         "value": 2
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 2
       },
       {
-        "medicine": "Simvastatin oral",
+        "medicine": "Simvastatin",
         "value": 2
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 2
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 2
       },
       {
-        "medicine": "Pravastatin oral",
+        "medicine": "Pravastatin",
         "value": 2
       },
       {
-        "medicine": "Mobic oral",
+        "medicine": "Mobic",
         "value": 2
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 2
       },
       {
-        "medicine": "Methylprednisolone oral",
+        "medicine": "Methylprednisolone",
         "value": 2
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 2
       },
       {
-        "medicine": "Meloxicam oral",
+        "medicine": "Meloxicam",
         "value": 2
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 2
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 2
       },
       {
-        "medicine": "Hydroxyzine hcl oral",
+        "medicine": "Hydroxyzine hcl",
         "value": 2
       },
       {
-        "medicine": "Hydrocodone-acetaminophen oral",
+        "medicine": "Hydrocodone-acetaminophen",
         "value": 2
       },
       {
-        "medicine": "Doxycycline oral",
+        "medicine": "Doxycycline",
         "value": 2
       },
       {
-        "medicine": "Baclofen oral",
+        "medicine": "Baclofen",
         "value": 2
       },
       {
-        "medicine": "Atenolol oral",
+        "medicine": "Atenolol",
         "value": 2
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 2
       },
       {
-        "medicine": "Zofran oral",
+        "medicine": "Zofran",
         "value": 1
       },
       {
-        "medicine": "Zocor oral",
+        "medicine": "Zocor",
         "value": 1
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Wellbutrin xl oral",
+        "medicine": "Wellbutrin xl",
         "value": 1
       },
       {
-        "medicine": "Vyvanse oral",
+        "medicine": "Vyvanse",
         "value": 1
       },
       {
-        "medicine": "Voltaren oral",
+        "medicine": "Voltaren",
         "value": 1
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Venlafaxine oral",
+        "medicine": "Venlafaxine",
         "value": 1
       },
       {
-        "medicine": "Topamax oral",
+        "medicine": "Topamax",
         "value": 1
       },
       {
-        "medicine": "Tamsulosin oral",
+        "medicine": "Tamsulosin",
         "value": 1
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Singulair oral",
+        "medicine": "Singulair",
         "value": 1
       },
       {
-        "medicine": "Seroquel oral",
+        "medicine": "Seroquel",
         "value": 1
       },
       {
-        "medicine": "Roxicodone oral",
+        "medicine": "Roxicodone",
         "value": 1
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Protonix oral",
+        "medicine": "Protonix",
         "value": 1
       },
       {
-        "medicine": "Phentermine oral",
+        "medicine": "Phentermine",
         "value": 1
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 1
       },
       {
-        "medicine": "Pantoprazole oral",
+        "medicine": "Pantoprazole",
         "value": 1
       },
       {
-        "medicine": "Opana oral",
+        "medicine": "Opana",
         "value": 1
       },
       {
-        "medicine": "Nabumetone oral",
+        "medicine": "Nabumetone",
         "value": 1
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 1
       },
       {
-        "medicine": "Lipitor oral",
+        "medicine": "Lipitor",
         "value": 1
       },
       {
-        "medicine": "Levaquin oral",
+        "medicine": "Levaquin",
         "value": 1
       },
       {
-        "medicine": "Indomethacin oral",
+        "medicine": "Indomethacin",
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
-        "medicine": "Flomax oral",
+        "medicine": "Flomax",
         "value": 1
       },
       {
-        "medicine": "Flagyl oral",
+        "medicine": "Flagyl",
         "value": 1
       },
       {
-        "medicine": "Fioricet oral",
+        "medicine": "Fioricet",
         "value": 1
       },
       {
-        "medicine": "Digoxin oral",
+        "medicine": "Digoxin",
         "value": 1
       },
       {
-        "medicine": "Diclofenac oral",
+        "medicine": "Diclofenac",
         "value": 1
       },
       {
-        "medicine": "Concerta oral",
+        "medicine": "Concerta",
         "value": 1
       },
       {
-        "medicine": "Clonidine hcl oral",
+        "medicine": "Clonidine hcl",
         "value": 1
       },
       {
-        "medicine": "Citalopram oral",
+        "medicine": "Citalopram",
         "value": 1
       },
       {
-        "medicine": "Celebrex oral",
+        "medicine": "Celebrex",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Amlodipine oral",
+        "medicine": "Amlodipine",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       }
     ],
@@ -15155,99 +15155,99 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 10
       },
       {
-        "medicine": "Clonazepam oral",
+        "medicine": "Clonazepam",
         "value": 6
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 5
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 4
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 3
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 3
       },
       {
-        "medicine": "Sertraline oral",
+        "medicine": "Sertraline",
         "value": 2
       },
       {
-        "medicine": "Lorazepam oral",
+        "medicine": "Lorazepam",
         "value": 2
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Wellbutrin xl oral",
+        "medicine": "Wellbutrin xl",
         "value": 1
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 1
       },
       {
-        "medicine": "Ritalin oral",
+        "medicine": "Ritalin",
         "value": 1
       },
       {
-        "medicine": "Risperdal oral",
+        "medicine": "Risperdal",
         "value": 1
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 1
       },
       {
-        "medicine": "Omeprazole oral",
+        "medicine": "Omeprazole",
         "value": 1
       },
       {
-        "medicine": "Nortriptyline oral",
+        "medicine": "Nortriptyline",
         "value": 1
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 1
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Lexapro oral",
+        "medicine": "Lexapro",
         "value": 1
       },
       {
-        "medicine": "Lamictal oral",
+        "medicine": "Lamictal",
         "value": 1
       },
       {
-        "medicine": "Fluoxetine oral",
+        "medicine": "Fluoxetine",
         "value": 1
       },
       {
@@ -15255,51 +15255,51 @@
         "value": 1
       },
       {
-        "medicine": "Elavil oral",
+        "medicine": "Elavil",
         "value": 1
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 1
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 1
       },
       {
-        "medicine": "Depakote oral",
+        "medicine": "Depakote",
         "value": 1
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 1
       },
       {
-        "medicine": "Citalopram oral",
+        "medicine": "Citalopram",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Bupropion hcl oral",
+        "medicine": "Bupropion hcl",
         "value": 1
       },
       {
-        "medicine": "Ativan oral",
+        "medicine": "Ativan",
         "value": 1
       },
       {
-        "medicine": "Atenolol oral",
+        "medicine": "Atenolol",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -15551,7 +15551,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 1
       }
     ],
@@ -15685,15 +15685,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 3
       },
       {
-        "medicine": "Oxycontin oral",
+        "medicine": "Oxycontin",
         "value": 3
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       }
     ],
@@ -15785,15 +15785,15 @@
     "likelyDiseases": [],
     "likelyMedicines": [
       {
-        "medicine": "Valtrex oral",
+        "medicine": "Valtrex",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       }
     ],
@@ -16072,31 +16072,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 3
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Doxycycline oral",
+        "medicine": "Doxycycline",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       }
     ],
@@ -16335,15 +16335,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 3
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 1
       }
     ],
@@ -16466,7 +16466,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       }
     ],
@@ -16619,63 +16619,63 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 4
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 4
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 4
       },
       {
-        "medicine": "Keppra oral",
+        "medicine": "Keppra",
         "value": 2
       },
       {
-        "medicine": "Clonazepam oral",
+        "medicine": "Clonazepam",
         "value": 2
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Vyvanse oral",
+        "medicine": "Vyvanse",
         "value": 1
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Lamictal oral",
+        "medicine": "Lamictal",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 1
       },
       {
-        "medicine": "Depakote oral",
+        "medicine": "Depakote",
         "value": 1
       },
       {
-        "medicine": "Citalopram oral",
+        "medicine": "Citalopram",
         "value": 1
       }
     ],
@@ -16886,19 +16886,19 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zolpidem oral",
+        "medicine": "Zolpidem",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       }
     ],
@@ -17040,43 +17040,43 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 3
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 2
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Lorazepam oral",
+        "medicine": "Lorazepam",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
@@ -17084,7 +17084,7 @@
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -17224,7 +17224,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       }
     ],
@@ -17436,31 +17436,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 1
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 1
       },
       {
-        "medicine": "Lasix oral",
+        "medicine": "Lasix",
         "value": 1
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       }
     ],
@@ -17658,31 +17658,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Diclofenac oral",
+        "medicine": "Diclofenac",
         "value": 1
       },
       {
-        "medicine": "Baclofen oral",
+        "medicine": "Baclofen",
         "value": 1
       }
     ],
@@ -18003,67 +18003,67 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 4
       },
       {
-        "medicine": "Prozac oral",
+        "medicine": "Prozac",
         "value": 2
       },
       {
-        "medicine": "Paxil oral",
+        "medicine": "Paxil",
         "value": 2
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Wellbutrin xl oral",
+        "medicine": "Wellbutrin xl",
         "value": 1
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Soma oral",
+        "medicine": "Soma",
         "value": 1
       },
       {
-        "medicine": "Sertraline oral",
+        "medicine": "Sertraline",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Klonopin oral",
+        "medicine": "Klonopin",
         "value": 1
       },
       {
-        "medicine": "Effexor xr oral",
+        "medicine": "Effexor xr",
         "value": 1
       },
       {
-        "medicine": "Depakote oral",
+        "medicine": "Depakote",
         "value": 1
       },
       {
-        "medicine": "Cymbalta oral",
+        "medicine": "Cymbalta",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       },
       {
-        "medicine": "Bupropion hcl oral",
+        "medicine": "Bupropion hcl",
         "value": 1
       }
     ],
@@ -18279,15 +18279,15 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 1
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 1
       }
     ],
@@ -18618,127 +18618,127 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 19
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 7
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 5
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 3
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 3
       },
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 2
       },
       {
-        "medicine": "Keflex oral",
+        "medicine": "Keflex",
         "value": 2
       },
       {
-        "medicine": "Hydrochlorothiazide oral",
+        "medicine": "Hydrochlorothiazide",
         "value": 2
       },
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 2
       },
       {
-        "medicine": "Augmentin oral",
+        "medicine": "Augmentin",
         "value": 2
       },
       {
-        "medicine": "Zyprexa oral",
+        "medicine": "Zyprexa",
         "value": 1
       },
       {
-        "medicine": "Zocor oral",
+        "medicine": "Zocor",
         "value": 1
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 1
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Simvastatin oral",
+        "medicine": "Simvastatin",
         "value": 1
       },
       {
-        "medicine": "Risperdal oral",
+        "medicine": "Risperdal",
         "value": 1
       },
       {
-        "medicine": "Propranolol oral",
+        "medicine": "Propranolol",
         "value": 1
       },
       {
-        "medicine": "Pravastatin oral",
+        "medicine": "Pravastatin",
         "value": 1
       },
       {
-        "medicine": "Mobic oral",
+        "medicine": "Mobic",
         "value": 1
       },
       {
-        "medicine": "Metoprolol succinate oral",
+        "medicine": "Metoprolol succinate",
         "value": 1
       },
       {
-        "medicine": "Methotrexate (anti-rheumatic) oral",
+        "medicine": "Methotrexate (anti-rheumatic)",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Loratadine oral",
+        "medicine": "Loratadine",
         "value": 1
       },
       {
-        "medicine": "Lopressor oral",
+        "medicine": "Lopressor",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Lipitor oral",
+        "medicine": "Lipitor",
         "value": 1
       },
       {
-        "medicine": "Lasix oral",
+        "medicine": "Lasix",
         "value": 1
       },
       {
-        "medicine": "Hydroxyzine hcl oral",
+        "medicine": "Hydroxyzine hcl",
         "value": 1
       },
       {
-        "medicine": "Geodon oral",
+        "medicine": "Geodon",
         "value": 1
       },
       {
-        "medicine": "Furosemide oral",
+        "medicine": "Furosemide",
         "value": 1
       },
       {
@@ -18746,71 +18746,71 @@
         "value": 1
       },
       {
-        "medicine": "Doxycycline oral",
+        "medicine": "Doxycycline",
         "value": 1
       },
       {
-        "medicine": "Diclofenac oral",
+        "medicine": "Diclofenac",
         "value": 1
       },
       {
-        "medicine": "Crestor oral",
+        "medicine": "Crestor",
         "value": 1
       },
       {
-        "medicine": "Coreg oral",
+        "medicine": "Coreg",
         "value": 1
       },
       {
-        "medicine": "Clindamycin hcl oral",
+        "medicine": "Clindamycin hcl",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Celebrex oral",
+        "medicine": "Celebrex",
         "value": 1
       },
       {
-        "medicine": "Carvedilol oral",
+        "medicine": "Carvedilol",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Azithromycin oral",
+        "medicine": "Azithromycin",
         "value": 1
       },
       {
-        "medicine": "Atenolol oral",
+        "medicine": "Atenolol",
         "value": 1
       },
       {
-        "medicine": "Amoxicillin oral",
+        "medicine": "Amoxicillin",
         "value": 1
       },
       {
-        "medicine": "Allopurinol oral",
+        "medicine": "Allopurinol",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       },
       {
-        "medicine": "Acyclovir oral",
+        "medicine": "Acyclovir",
         "value": 1
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 1
       },
       {
-        "medicine": "Abilify oral",
+        "medicine": "Abilify",
         "value": 1
       }
     ],
@@ -19109,7 +19109,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -19266,11 +19266,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Spironolactone oral",
+        "medicine": "Spironolactone",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       }
     ],
@@ -19344,19 +19344,19 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 11
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 2
       },
       {
-        "medicine": "Hydrochlorothiazide oral",
+        "medicine": "Hydrochlorothiazide",
         "value": 1
       },
       {
-        "medicine": "Furosemide oral",
+        "medicine": "Furosemide",
         "value": 1
       }
     ],
@@ -19491,35 +19491,35 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 3
       },
       {
-        "medicine": "Vyvanse oral",
+        "medicine": "Vyvanse",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 1
       },
       {
-        "medicine": "Lortab oral",
+        "medicine": "Lortab",
         "value": 1
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Baclofen oral",
+        "medicine": "Baclofen",
         "value": 1
       }
     ],
@@ -19770,7 +19770,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 2
       },
       {
@@ -20030,31 +20030,31 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 4
       },
       {
-        "medicine": "Meclizine oral",
+        "medicine": "Meclizine",
         "value": 3
       },
       {
-        "medicine": "Valium oral",
+        "medicine": "Valium",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Diazepam oral",
+        "medicine": "Diazepam",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Amitriptyline oral",
+        "medicine": "Amitriptyline",
         "value": 1
       }
     ],
@@ -20337,7 +20337,7 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 8
       },
       {
@@ -20345,139 +20345,139 @@
         "value": 6
       },
       {
-        "medicine": "Zofran oral",
+        "medicine": "Zofran",
         "value": 5
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 4
       },
       {
-        "medicine": "Oxycodone oral",
+        "medicine": "Oxycodone",
         "value": 3
       },
       {
-        "medicine": "Ultram oral",
+        "medicine": "Ultram",
         "value": 2
       },
       {
-        "medicine": "Morphine oral",
+        "medicine": "Morphine",
         "value": 2
       },
       {
-        "medicine": "Metronidazole oral",
+        "medicine": "Metronidazole",
         "value": 2
       },
       {
-        "medicine": "Lyrica oral",
+        "medicine": "Lyrica",
         "value": 2
       },
       {
-        "medicine": "Lorazepam oral",
+        "medicine": "Lorazepam",
         "value": 2
       },
       {
-        "medicine": "Hydrocodone hd oral",
+        "medicine": "Hydrocodone hd",
         "value": 2
       },
       {
-        "medicine": "Flagyl oral",
+        "medicine": "Flagyl",
         "value": 2
       },
       {
-        "medicine": "Actos oral",
+        "medicine": "Actos",
         "value": 2
       },
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 1
       },
       {
-        "medicine": "Vistaril oral",
+        "medicine": "Vistaril",
         "value": 1
       },
       {
-        "medicine": "Vicodin es oral",
+        "medicine": "Vicodin es",
         "value": 1
       },
       {
-        "medicine": "Tramadol oral",
+        "medicine": "Tramadol",
         "value": 1
       },
       {
-        "medicine": "Tamsulosin oral",
+        "medicine": "Tamsulosin",
         "value": 1
       },
       {
-        "medicine": "Ranitidine oral",
+        "medicine": "Ranitidine",
         "value": 1
       },
       {
-        "medicine": "Nexium oral",
+        "medicine": "Nexium",
         "value": 1
       },
       {
-        "medicine": "Naproxen oral",
+        "medicine": "Naproxen",
         "value": 1
       },
       {
-        "medicine": "Metoclopramide oral",
+        "medicine": "Metoclopramide",
         "value": 1
       },
       {
-        "medicine": "Methadone oral",
+        "medicine": "Methadone",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Meclizine oral",
+        "medicine": "Meclizine",
         "value": 1
       },
       {
-        "medicine": "Flomax oral",
+        "medicine": "Flomax",
         "value": 1
       },
       {
-        "medicine": "Dilaudid oral",
+        "medicine": "Dilaudid",
         "value": 1
       },
       {
-        "medicine": "Coumadin oral",
+        "medicine": "Coumadin",
         "value": 1
       },
       {
-        "medicine": "Clindamycin hcl oral",
+        "medicine": "Clindamycin hcl",
         "value": 1
       },
       {
-        "medicine": "Cephalexin oral",
+        "medicine": "Cephalexin",
         "value": 1
       },
       {
-        "medicine": "Celexa oral",
+        "medicine": "Celexa",
         "value": 1
       },
       {
-        "medicine": "Benadryl oral",
+        "medicine": "Benadryl",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Azithromycin oral",
+        "medicine": "Azithromycin",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       }
     ],
@@ -20804,23 +20804,23 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Toprol xl oral",
+        "medicine": "Toprol xl",
         "value": 1
       },
       {
-        "medicine": "Prednisone oral",
+        "medicine": "Prednisone",
         "value": 1
       },
       {
-        "medicine": "Lisinopril oral",
+        "medicine": "Lisinopril",
         "value": 1
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 1
       },
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 1
       }
     ],
@@ -20983,19 +20983,19 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Xanax oral",
+        "medicine": "Xanax",
         "value": 1
       },
       {
-        "medicine": "Neurontin oral",
+        "medicine": "Neurontin",
         "value": 1
       },
       {
-        "medicine": "Gabapentin oral",
+        "medicine": "Gabapentin",
         "value": 1
       },
       {
-        "medicine": "Alprazolam oral",
+        "medicine": "Alprazolam",
         "value": 1
       }
     ],
@@ -21148,11 +21148,11 @@
     ],
     "likelyMedicines": [
       {
-        "medicine": "Cialis oral",
+        "medicine": "Cialis",
         "value": 5
       },
       {
-        "medicine": "Ibuprofen oral",
+        "medicine": "Ibuprofen",
         "value": 4
       },
       {
@@ -21160,51 +21160,51 @@
         "value": 2
       },
       {
-        "medicine": "Ambien oral",
+        "medicine": "Ambien",
         "value": 2
       },
       {
-        "medicine": "Zoloft oral",
+        "medicine": "Zoloft",
         "value": 1
       },
       {
-        "medicine": "Warfarin oral",
+        "medicine": "Warfarin",
         "value": 1
       },
       {
-        "medicine": "Synthroid oral",
+        "medicine": "Synthroid",
         "value": 1
       },
       {
-        "medicine": "Singulair oral",
+        "medicine": "Singulair",
         "value": 1
       },
       {
-        "medicine": "Propranolol oral",
+        "medicine": "Propranolol",
         "value": 1
       },
       {
-        "medicine": "Metformin oral",
+        "medicine": "Metformin",
         "value": 1
       },
       {
-        "medicine": "Lamictal oral",
+        "medicine": "Lamictal",
         "value": 1
       },
       {
-        "medicine": "Cipro oral",
+        "medicine": "Cipro",
         "value": 1
       },
       {
-        "medicine": "Bupropion hcl oral",
+        "medicine": "Bupropion hcl",
         "value": 1
       },
       {
-        "medicine": "Bactrim ds oral",
+        "medicine": "Bactrim ds",
         "value": 1
       },
       {
-        "medicine": "Adderall oral",
+        "medicine": "Adderall",
         "value": 1
       }
     ],

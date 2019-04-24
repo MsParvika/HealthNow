@@ -12,16 +12,16 @@ function barChart(keyword) {
         myfunc(keyword, 'likelyMedicines', 'medicine');
     };
 
-    var width = 480;
-    var height = 300;
-    var margin = {upper: 20, bottom: 80, left: 50, right: 20};
+    var width = 520;
+    var height = 350;
+    var margin = {top: 20, bottom: 70, left: 25, right: 20};
 
     var svg = d3.select('#barChart')
         //.append('svg')
         .attr('height', height)
         .attr('width', width)
         //.append("g")
-        .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+        .attr('transform', 'translate(0,0)');
 
     myfunc(keyword, 'likelySymptoms', 'symptom');
 
@@ -58,12 +58,12 @@ function barChart(keyword) {
 
             var yScale = d3.scaleLinear()
                 .rangeRound([height, 0]).domain([0, d3.max(data, function (d) {
-                    return Number(d.value * 1.3);
+                    return Number(d.value * 2);
                 })]);
 
             var yAxis = d3.axisLeft().scale(yScale).ticks(10);
 
-            var xAxis = d3.axisBottom();
+            //var xAxis = d3.axisBottom();
 
             /*svg.append("g")
                 .attr("transform", "translate(0," + height + ")")
@@ -71,23 +71,18 @@ function barChart(keyword) {
                 .attr("font-family", "Georgia", "serif")
                 .style("font-size", "12px");
             */
+
             svg.append("g")
-                .attr("transform", "translate(0," + height + ")")
+                .attr("transform", "translate("+ margin.left + "," + (height - margin.bottom) + ")")
                 .call(d3.axisBottom(xScale))
                 .selectAll("text")
-                // 		.attr("transform", function() {
-                //    		return d3.svg.transform()
-                //         .translate(200, 100)
-                //         .rotate(-90)
-                //         .translate(-d3.select(this).attr("width")/2, -d3.select(this).attr("height")/2)();
-                // }
                 .attr("transform", "rotate(-90)translate(-30,-15)");
 
 
             //console.log(Math.PI);
 
             svg.append("g")
-                .attr("transform", 'translate(20,0)')
+                .attr("transform", "translate(" + margin.left + ","+ (0 - margin.bottom) +")")
                 .attr("class", "axis")
                 .call(yAxis)
                 .append("text")
@@ -116,11 +111,11 @@ function barChart(keyword) {
                 .attr("class", "bar")
                 .attr("x", function (d) {
                     // console.log(d.disease)
-                    return xScale(d[sdm]);
+                    return (xScale(d[sdm])+margin.left);
                 })
                 .attr("y", function (d) {
                     // console.log(d.value)
-                    return yScale(Number(d.value));
+                    return (yScale(Number(d.value))-margin.bottom);
                 })
                 .attr("width", xScale.bandwidth())
                 .attr("height", function (d) {
