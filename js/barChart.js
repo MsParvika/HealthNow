@@ -13,7 +13,7 @@ function barChart(keyword) {
     };
 
     var width = 530;
-    var height = 150;
+    var height = 220;
     var margin = {top: 20, bottom: 70, left: 28, right: 20};
 
     var svg = d3.select('#barChart')

@@ -10,6 +10,7 @@
     <script src='js/d3.zoom.js'></script>
     <script src='js/autoComplete.js'></script>
     <script src='js/Query.js'></script>
+    <script src='js/Details.js'></script>
     <script src="js/network.js"></script>
     <script src="js/barChart.js"></script>
     <script src="js/plotly-latest.min.js"></script>
@@ -37,7 +38,7 @@
                            placeholder="How are you feeling today?" aria-label="Search">
                     <div class="input-group-append">
                         <button type="submit" class="input-group-text amber lighten-3"
-                                onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value);show_time_series(document.getElementById('autocomplete').value);barChart(document.getElementById('autocomplete').value)">
+                                onclick="add(document.getElementById('autocomplete').value);showChart(document.getElementById('autocomplete').value);show_time_series(document.getElementById('autocomplete').value);barChart(document.getElementById('autocomplete').value);add_details(document.getElementById('autocomplete').value);">
                             <i class="fa fa-search"> </i></button>
                     </div>
                 </div>
@@ -61,8 +62,10 @@
                 <br>
                 <svg id='barChart'></svg>
             </div>
-            <div class="col-sm  bs-docs-example" data-content="Details">
-                <p> Q and A </p>
+            <div class="col-sm  bs-docs-example" data-content="Description">
+                <span id="details" style="font-size : 15px"> </span> <br>
+                <span id="details2"> </span>
+
             </div>
         </div>
     </div>

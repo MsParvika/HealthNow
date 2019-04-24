@@ -2,6 +2,7 @@ $(document).ready(function () {
     showChart("Symptom");
     show_time_series("Symptom");
     barChart("Symptom");
+    add_details("Symptom");
     var topics = [
         "Suicidal",
         "Asymptomatic",

@@ -14,6 +14,7 @@ function add(keyword) {
         showChart(keyword);
         show_time_series(keyword);
         barChart(keyword);
+        add_details(keyword);
     };
 
     var foo = document.getElementById("keywords");
