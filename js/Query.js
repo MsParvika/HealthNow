@@ -13,6 +13,7 @@ function add(keyword) {
     element.onclick = function () {
         showChart(keyword);
         show_time_series(keyword);
+        barChart(keyword);
     };
 
     var foo = document.getElementById("keywords");
