@@ -2,7 +2,7 @@ function showChart(queryKey) {
 
     var width = 500;
     var height = 410;
-    var color = d3.scaleOrdinal().domain([0, 1]).range(['#F18B98', '#6D8DF6']);//(d3.schemePastel1);
+    var color = d3.scaleOrdinal().domain([0, 1]).range(['#ffb24f', '#6D8DF6']);//(d3.schemePastel1);
 
 
     if (!queryKey) {
@@ -75,7 +75,7 @@ function showChart(queryKey) {
                     .data(graph.nodes)
                     .enter().append("circle")
                     .attr("r", function (d) {
-                        return d.freq+20;
+                        return d.freq+26;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);
@@ -171,7 +171,7 @@ function showChart(queryKey) {
 
                 node
                     .attr("r", function (d) {
-                        return d.freq+20;
+                        return d.freq+26;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);

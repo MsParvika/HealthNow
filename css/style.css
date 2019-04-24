@@ -49,6 +49,10 @@ body{
   outline: none;
 }
 
+#symptomBtn.btn:visited{
+  outline: 2px !important;
+}
+
 .btn-info:hover, .btn-info:focus {
   outline: none;
 }
@@ -83,9 +87,11 @@ body{
 }
 
 .bar {
-  fill: #6D8DF6;
+  fill: #ffb24f;
+ stroke :#424242;
+stroke-width : 1px;
 }
 
 .bar:hover {
-  fill: #509574;
+  fill: #117a8b;
 }
