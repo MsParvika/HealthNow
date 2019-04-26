@@ -57,7 +57,14 @@ function show_time_series(inp) {
 
         var layout = {
             autosize: true,
-            margin :{'t': 0, 'b': 0},
+            //margin :{'t': 0, 'b': 1},
+            margin: {
+                l: 50,
+                r: 50,
+                b: 20,
+                t: 10,
+                pad: 4
+            },
             height: 250,
             yaxis: {
                 title: 'Frequency'
