@@ -44,7 +44,7 @@ function barChart(keyword) {
 
             var yScale = d3.scaleLinear()
                 .rangeRound([height, margin.bottom+10]).domain([0, d3.max(data, function (d) {
-                    return Number(d.value );
+                    return Number(d.value*1.3);
                 })]);
 
             var yAxis = d3.axisLeft().scale(yScale).ticks(5);
