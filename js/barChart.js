@@ -64,7 +64,7 @@ function barChart(keyword) {
                 .attr("class", "axis")
                 .call(yAxis)
                 .append("text")
-                .attr("transform", "rotate(-90)")
+                .attr("transform", "rotate(-60)translate(-43,17)")
                 .attr("x", -20)
                 .attr("y", 2)
                 .attr("dy", "15px")
@@ -72,7 +72,7 @@ function barChart(keyword) {
                 .style("font-size", "10px")
                 .attr("font-family", "serif")
                 .style("fill", "black")
-                .text("Frequency");
+                .text("Freq");
 
             svg.selectAll(".bar")
                 .data(data)
