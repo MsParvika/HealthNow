@@ -102,31 +102,7 @@ function barChart(keyword) {
                 .attr("width", xScale.bandwidth())
                 .attr("height", function (d) {
                     return height - yScale(Number(d.value));
-                })
-                .on("mouseover", function() {
-                    d3.select(this)
-                        .attr("fill", "red");
-                })
-                .on("mouseout", function(d, i) {
-                    d3.select(this).attr("fill", function() {
-                        return "" + color(this.id) + "";
-                    });
                 });
-            /*
-                .append("text")
-                .attr("class", "label")
-                .style("font-size", "10px")
-                .attr("font-family", "serif")
-                .style("fill", "black")
-                .attr("y", function (d) {
-                    return yScale(Number(d.value));
-                })
-                .attr("x", function (d) {
-                    return xScale(d[sdm]) + 3;
-                })
-                .text(function (d) {
-                    return d[sdm];
-                }); */
         });
 
     }
