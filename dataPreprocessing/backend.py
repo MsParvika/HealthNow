@@ -105,27 +105,6 @@ cooccurance = []
 
 
 
-
-'''
-ids = list(range(len(contents)))
-mDict = {}
-
-for ii in ids:
-	for dd in mdList:
-		if dd.split(' ')[0] in contents[ii]:
-			if dd in mDict:
-				mDict[dd] += 1
-			else:
-				mDict[dd] = 1
-
-symptxt = sorted(mDict.items(), key=lambda kv: (kv[1], kv[0]), reverse=True)
-print(symptxt)
-'''
-
-
-
-
-
 symptomList = [line.rstrip('\n') for line in open("symptoms.txt")]
 print(symptomList)
 # Selected Symptoms keep updating on selection

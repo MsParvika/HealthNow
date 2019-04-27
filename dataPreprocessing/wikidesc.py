@@ -2,9 +2,9 @@ from nltk.corpus import wordnet as wn
 import requests
 import nltk
 import traceback
-#print wn.synset('pain.n.01').definition()
+
 import json
-#print wn.synset('pain.n.01').definition()
+
 
 import urllib
 
@@ -64,35 +64,7 @@ for symptom in symptomList:
         queryVec = queryVec + " " + i
     queryList.append(queryVec)
 
-    #print(symptom)
-    #print syn
-#for i in wikipediaList:
-#    print i
-'''
-print(queryList)
 
-
-contents = []
-questionID = []
-
-
-with open('webmd-answer.json') as json_file:
-    data = json.load(json_file, strict=False,)
-    for row in data:
-    	contents.append(row['answerContent'].lower())
-    	questionID.append(row['questionId'])
-
-contents = queryList + contents
-from sklearn.feature_extraction.text import TfidfVectorizer
-tfidf = TfidfVectorizer(stop_words='english')
-X = tfidf.fit_transform(contents)
-
-from sklearn.metrics.pairwise import cosine_similarity
-
-pairwise = cosine_similarity(X)
-
-'''
-#print(wikipediaList[2])
 import json
 with open('data3.json', 'w') as outfile:
 	json.dump(jsonDict, outfile, sort_keys=True)
