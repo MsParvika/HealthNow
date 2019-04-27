@@ -14,7 +14,7 @@ function barChart(keyword) {
 
     var width = 530;
     var height = 220;
-    var margin = {top: 20, bottom: 70, left: 28, right: 20};
+    var margin = {top: 20, bottom: 70, left: 40, right: 20};
 
     var svg = d3.select('#barChart')
         //.append('svg')
@@ -64,7 +64,7 @@ function barChart(keyword) {
                 .attr("class", "axis")
                 .call(yAxis)
                 .append("text")
-                .attr("transform", "rotate(-60)translate(-43,17)")
+                .attr("transform", "translate(30,60)")
                 .attr("x", -20)
                 .attr("y", 2)
                 .attr("dy", "15px")
