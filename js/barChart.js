@@ -3,12 +3,21 @@ function barChart(keyword) {
     var element2 = document.getElementById("diseaseBtn");
     var element3 = document.getElementById("medicineBtn");
     element1.onclick = function () {
+        element1.style.background = '#00008F';
+        element2.style.background = '#6B6FC8';
+        element3.style.background = '#6B6FC8';
         myfunc(keyword, 'likelySymptoms', 'symptom');
     };
     element2.onclick = function () {
+        element2.style.background = '#00008F';
+        element1.style.background = '#6B6FC8';
+        element3.style.background = '#6B6FC8';
         myfunc(keyword, 'likelyDiseases', 'disease');
     };
     element3.onclick = function () {
+        element3.style.background = '#00008F';
+        element2.style.background = '#6B6FC8';
+        element1.style.background = '#6B6FC8';
         myfunc(keyword, 'likelyMedicines', 'medicine');
     };
 
