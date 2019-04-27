@@ -2,27 +2,31 @@ function barChart(keyword) {
     var element1 = document.getElementById("symptomBtn");
     var element2 = document.getElementById("diseaseBtn");
     var element3 = document.getElementById("medicineBtn");
+    element1.style.background = '#117a8b';
+    element2.style.background = '#6B6FC8';
+    element3.style.background = '#6B6FC8';
+
     element1.onclick = function () {
-        element1.style.background = '#00008F';
+        element1.style.background = '#117a8b';
         element2.style.background = '#6B6FC8';
         element3.style.background = '#6B6FC8';
         myfunc(keyword, 'likelySymptoms', 'symptom');
     };
     element2.onclick = function () {
-        element2.style.background = '#00008F';
+        element2.style.background = '#117a8b';
         element1.style.background = '#6B6FC8';
         element3.style.background = '#6B6FC8';
         myfunc(keyword, 'likelyDiseases', 'disease');
     };
     element3.onclick = function () {
-        element3.style.background = '#00008F';
+        element3.style.background = '#117a8b';
         element2.style.background = '#6B6FC8';
         element1.style.background = '#6B6FC8';
         myfunc(keyword, 'likelyMedicines', 'medicine');
     };
 
     var width = 530;
-    var height = 220;
+    var height = 300;
     var margin = {top: 20, bottom: 70, left: 40, right: 20};
 
     var svg = d3.select('#barChart')
@@ -45,6 +49,8 @@ function barChart(keyword) {
                 data = data.slice(0, 10);
             }
 
+            //var tooltip = d3.select("#barChart").append("svg").attr("class", "toolTip");
+
             var xScale = d3.scaleBand()
                 .rangeRound([0, width-margin.left])
                 .padding(0.1).domain(data.map(function (d) {
@@ -66,7 +72,7 @@ function barChart(keyword) {
                 .style("font-size", "10px")
                 .attr("font-family", "serif")
                 .style("fill", "black")
-                .attr("transform", "rotate(-60)translate(-30,-15)");
+                .attr("transform", "rotate(-45)translate(-30,-15)");
 
             svg.append("g")
                 .attr("transform", "translate(" + margin.left + ","+ (0 - margin.bottom) +")")
@@ -96,6 +102,15 @@ function barChart(keyword) {
                 .attr("width", xScale.bandwidth())
                 .attr("height", function (d) {
                     return height - yScale(Number(d.value));
+                })
+                .on("mouseover", function() {
+                    d3.select(this)
+                        .attr("fill", "red");
+                })
+                .on("mouseout", function(d, i) {
+                    d3.select(this).attr("fill", function() {
+                        return "" + color(this.id) + "";
+                    });
                 });
             /*
                 .append("text")
