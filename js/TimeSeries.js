@@ -1,6 +1,6 @@
 function show_time_series(inp) {
 
-    readTextFile("ProcessedData/data.json", function(text){
+    readTextFile("processedData/data.json", function(text){
         var data = JSON.parse(text);
         var data_inp = data[inp];
         var time_series_data = data_inp.monthsOfPrevalance;
