@@ -1,115 +1,4 @@
 {
-  "Symptom": {
-    "links": [
-      {
-        "source": "Pain",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Ache",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Fever",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Headache",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Cough",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Nausea",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Diarrhea",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Swelling",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Fatigue",
-        "target": "Symptom",
-        "value": 1
-      },
-      {
-        "source": "Dizziness",
-        "target": "Symptom",
-        "value": 1
-      }
-    ],
-    "nodes": [
-      {
-        "freq": 21,
-        "group": 1,
-        "id": "Symptom"
-      },
-      {
-        "freq": 20,
-        "group": 2,
-        "id": "Pain"
-      },
-      {
-        "freq": 13,
-        "group": 2,
-        "id": "Ache"
-      },
-      {
-        "freq": 12,
-        "group": 2,
-        "id": "Fever"
-      },
-      {
-        "freq": 12,
-        "group": 2,
-        "id": "Headache"
-      },
-      {
-        "freq": 12,
-        "group": 2,
-        "id": "Cough"
-      },
-      {
-        "freq": 11,
-        "group": 2,
-        "id": "Nausea"
-      },
-      {
-        "freq": 11,
-        "group": 2,
-        "id": "Diarrhea"
-      },
-      {
-        "freq": 11,
-        "group": 2,
-        "id": "Swelling"
-      },
-      {
-        "freq": 11,
-        "group": 2,
-        "id": "Fatigue"
-      },
-      {
-        "freq": 11,
-        "group": 2,
-        "id": "Dizziness"
-      }
-    ]
-  },
   "Abortion": {
     "links": [
       {
@@ -165,57 +54,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Abortion"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Thicken"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Ache"
       }
@@ -241,22 +130,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Achalasia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Thicken"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Asthenia"
       }
@@ -317,57 +206,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Ache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Tremor"
       }
@@ -428,57 +317,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Agitation"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Headache"
       }
@@ -529,47 +418,47 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Anorexia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Underweight"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Thicken"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Hunger"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Ache"
       }
@@ -630,57 +519,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Ascites"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Intoxication"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Fatigue"
       }
@@ -706,22 +595,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Asthenia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       }
@@ -782,57 +671,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Asymptomatic"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Erythema"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Vertigo"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Redness"
       }
@@ -893,57 +782,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Ataxia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Myoclonus"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Mydriasis"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Disequilibrium"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       }
@@ -1004,57 +893,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Aura"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 17,
+        "freq": 45,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Vertigo"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Panic"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Left "
       }
@@ -1075,17 +964,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Bedridden"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Drowsiness"
       }
@@ -1106,17 +995,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Blanch"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       }
@@ -1142,22 +1031,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Bradycardia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Lethargy"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Hypotension"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       }
@@ -1183,22 +1072,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Bradykinesia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Stiffness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       }
@@ -1234,32 +1123,32 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Bruit"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ascites"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -1315,42 +1204,42 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Chill"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Lesion"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Headache"
       }
@@ -1376,22 +1265,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Choke"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Chill"
       }
@@ -1452,57 +1341,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Clumsiness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -1563,57 +1452,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Constipation"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 34,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Swelling"
       }
@@ -1674,57 +1563,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Cough"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 17,
+        "freq": 49,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Sneeze"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Wheezing"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Difficulty"
       }
@@ -1775,47 +1664,47 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Cyanosis"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Tachypnea"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Chill"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Ache"
       }
@@ -1876,57 +1765,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Diarrhea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 17,
+        "freq": 49,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Sweat"
       }
@@ -1987,57 +1876,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Difficulty"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 29,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 13,
+        "freq": 27,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Constipation"
       }
@@ -2063,22 +1952,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Disequilibrium"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ataxia"
       }
@@ -2139,57 +2028,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Dizziness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 19,
+        "freq": 57,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 50,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 17,
+        "freq": 49,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 17,
+        "freq": 46,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 36,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Diarrhea"
       }
@@ -2250,57 +2139,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Drowsiness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 19,
+        "freq": 55,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 16,
+        "freq": 42,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 36,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Swelling"
       }
@@ -2316,12 +2205,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Dullness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       }
@@ -2382,57 +2271,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Dyspareunia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Pruritus"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Flushing"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Dysuria"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Cough"
       }
@@ -2463,27 +2352,27 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Dyspnea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Wheezing"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       }
@@ -2514,27 +2403,27 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Dysuria"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Pruritus"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Dyspareunia"
       }
@@ -2595,57 +2484,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Elation"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Agitation"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Ache"
       }
@@ -2666,17 +2555,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Enuresis"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Left "
       }
@@ -2737,57 +2626,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Erythema"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Hirsutism"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Asymptomatic"
       }
@@ -2848,57 +2737,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Exhaustion"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 16,
+        "freq": 41,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Nervousness"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Fever"
       }
@@ -2959,57 +2848,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Fall"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Nausea"
       }
@@ -3070,57 +2959,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 34,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Fall"
       }
@@ -3181,57 +3070,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Fever"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 29,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Chill"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Sweat"
       }
@@ -3292,57 +3181,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Flare"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Myalgia"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Thicken"
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Stiffness"
       }
@@ -3398,52 +3287,52 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Flatulence"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 50,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Vertigo"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Aura"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Asymptomatic"
       }
@@ -3469,22 +3358,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Floppy"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Flare"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Asthenia"
       }
@@ -3545,57 +3434,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Flushing"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 17,
+        "freq": 45,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Lightheadedness"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Redness"
       }
@@ -3621,22 +3510,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Frail"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -3667,27 +3556,27 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Gag"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Choke"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Panic"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Cough"
       }
@@ -3708,17 +3597,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Groggy"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Fatigue"
       }
@@ -3734,12 +3623,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Haemorrhage"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       }
@@ -3800,57 +3689,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Headache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Sweat"
       }
@@ -3911,57 +3800,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Heartburn"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Hoarseness"
       }
@@ -3982,17 +3871,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hematuria"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Left "
       }
@@ -4028,32 +3917,32 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hemiplegia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -4114,57 +4003,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hirsutism"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Erythema"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Asymptomatic"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ascites"
       }
@@ -4225,57 +4114,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hoarseness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 50,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Wheezing"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Heartburn"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Dizziness"
       }
@@ -4336,57 +4225,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hunger"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Overweight"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Withdraw"
       }
@@ -4412,22 +4301,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hyperemesis"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -4453,22 +4342,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hyperkalemia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Hypokalemia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Diarrhea"
       }
@@ -4494,22 +4383,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hypersomnia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       }
@@ -4570,57 +4459,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hyperventilation"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vertigo"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Tinnitus"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Myalgia"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Malaise"
       }
@@ -4671,47 +4560,47 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hypokalemia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Hyperkalemia"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Constipation"
       }
@@ -4762,47 +4651,47 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hyponatremia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Hypotension"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       }
@@ -4863,57 +4752,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Hypotension"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Lightheadedness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Syncope"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Sleepy"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Myalgia"
       }
@@ -4949,22 +4838,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Immobile"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Redness"
       }
@@ -4980,12 +4869,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Incoherent"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Withdraw"
       }
@@ -5046,57 +4935,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Intoxication"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 37,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Agitation"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Difficulty"
       }
@@ -5157,57 +5046,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Left "
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Sweat"
       }
@@ -5268,57 +5157,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Lesion"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Prodrome"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Nausea"
       }
@@ -5379,57 +5268,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Lethargy"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Wheezing"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Vertigo"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Unwell"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Hypotension"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Difficulty"
       }
@@ -5490,57 +5379,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Lightheadedness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 54,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 18,
+        "freq": 51,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 17,
+        "freq": 46,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 17,
+        "freq": 46,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 29,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Drowsiness"
       }
@@ -5601,57 +5490,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Malaise"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 16,
+        "freq": 40,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Chill"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Swelling"
       }
@@ -5667,12 +5556,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Milky"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Worry"
       }
@@ -5688,12 +5577,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Moan"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Sweat"
       }
@@ -5729,32 +5618,32 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Moody"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Elation"
       }
@@ -5775,17 +5664,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Myalgia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Malaise"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Hyperventilation"
       }
@@ -5836,47 +5725,47 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Mydriasis"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Myoclonus"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ataxia"
       }
@@ -5937,57 +5826,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Myoclonus"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Mydriasis"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Diarrhea"
       }
@@ -6048,57 +5937,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 19,
+        "freq": 55,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Fatigue"
       }
@@ -6159,57 +6048,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Nervousness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 18,
+        "freq": 52,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 52,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 17,
+        "freq": 45,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 17,
+        "freq": 45,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 17,
+        "freq": 45,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 38,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 15,
+        "freq": 38,
         "group": 2,
         "id": "Redness"
       }
@@ -6255,42 +6144,42 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Nightmare"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Unhappy"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Overweight"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fall"
       }
@@ -6361,57 +6250,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Numbness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Fall"
       }
@@ -6437,22 +6326,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Orthopnea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Rale"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Left "
       }
@@ -6513,57 +6402,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Overweight"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 52,
         "group": 2,
         "id": "Underweight"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 27,
         "group": 2,
         "id": "Sedentary"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Vomiting"
       }
@@ -6624,57 +6513,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 19,
+        "freq": 56,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 17,
+        "freq": 48,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 16,
+        "freq": 44,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 38,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 38,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 36,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 13,
+        "freq": 29,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 13,
+        "freq": 29,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Diarrhea"
       }
@@ -6735,57 +6624,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Panic"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 17,
+        "freq": 46,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 36,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 14,
+        "freq": 33,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Withdraw"
       }
@@ -6806,17 +6695,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Paresthesia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Numbness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       }
@@ -6857,37 +6746,37 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Polymyalgia"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Myalgia"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Erythema"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Elation"
       }
@@ -6918,27 +6807,27 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Polyuria"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Hunger"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -6999,57 +6888,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Posterior "
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Stiffness"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Numbness"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Nervousness"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Lesion"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fall"
       }
@@ -7090,37 +6979,37 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Prodrome"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Lesion"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -7136,12 +7025,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Prostatism"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       }
@@ -7162,17 +7051,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Pruritus"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dysuria"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dyspareunia"
       }
@@ -7193,17 +7082,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Pustule"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Flare"
       }
@@ -7224,17 +7113,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Rale"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -7295,57 +7184,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Redness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 19,
+        "freq": 58,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 29,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Chill"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Lesion"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Fatigue"
       }
@@ -7391,42 +7280,42 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Sciatica"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 10,
+        "freq": 12,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 10,
+        "freq": 12,
         "group": 2,
         "id": "Overweight"
       },
       {
-        "freq": 10,
+        "freq": 12,
         "group": 2,
         "id": "Numbness"
       },
       {
-        "freq": 10,
+        "freq": 12,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 10,
+        "freq": 12,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 10,
+        "freq": 12,
         "group": 2,
         "id": "Ache"
       }
@@ -7442,12 +7331,12 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Scleral "
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       }
@@ -7508,57 +7397,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Sedentary"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Overweight"
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 13,
+        "freq": 25,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 15,
         "group": 2,
         "id": "Sweat"
       }
@@ -7619,57 +7508,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Seizure"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 51,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 39,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 39,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 39,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Drowsiness"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Sweat"
       }
@@ -7730,57 +7619,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Sleeplessness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Suicidal"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Snore"
       }
@@ -7841,57 +7730,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Sleepy"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 18,
+        "freq": 52,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 18,
+        "freq": 52,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 18,
+        "freq": 52,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 17,
+        "freq": 45,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 15,
+        "freq": 38,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Dizziness"
       }
@@ -7922,27 +7811,27 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Sneeze"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 14,
+        "freq": 31,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Swelling"
       }
@@ -8003,57 +7892,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Snore"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Sleepy"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Overweight"
       }
@@ -8114,57 +8003,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Spasm"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Numbness"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Heartburn"
       }
@@ -8225,57 +8114,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Stiffness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 27,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Numbness"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Vomiting"
       }
@@ -8311,32 +8200,32 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Stupor"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Tremor"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fever"
       }
@@ -8397,57 +8286,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Suicidal"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 18,
+        "freq": 53,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 16,
+        "freq": 41,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 16,
+        "freq": 41,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Panic"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Headache"
       }
@@ -8508,57 +8397,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Sweat"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 41,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Fatigue"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Withdraw"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Vomiting"
       }
@@ -8619,59 +8508,170 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Swelling"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 10,
+        "freq": 13,
         "group": 2,
         "id": "Fatigue"
+      }
+    ]
+  },
+  "Symptom": {
+    "links": [
+      {
+        "source": "Pain",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Ache",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Fever",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Headache",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Cough",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Nausea",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Diarrhea",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Swelling",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Fatigue",
+        "target": "Symptom",
+        "value": 1
+      },
+      {
+        "source": "Dizziness",
+        "target": "Symptom",
+        "value": 1
+      }
+    ],
+    "nodes": [
+      {
+        "freq": 65,
+        "group": 1,
+        "id": "Symptom"
+      },
+      {
+        "freq": 60,
+        "group": 2,
+        "id": "Pain"
+      },
+      {
+        "freq": 25,
+        "group": 2,
+        "id": "Ache"
+      },
+      {
+        "freq": 22,
+        "group": 2,
+        "id": "Fever"
+      },
+      {
+        "freq": 21,
+        "group": 2,
+        "id": "Headache"
+      },
+      {
+        "freq": 20,
+        "group": 2,
+        "id": "Cough"
+      },
+      {
+        "freq": 19,
+        "group": 2,
+        "id": "Nausea"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Diarrhea"
+      },
+      {
+        "freq": 18,
+        "group": 2,
+        "id": "Swelling"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Fatigue"
+      },
+      {
+        "freq": 16,
+        "group": 2,
+        "id": "Dizziness"
       }
     ]
   },
@@ -8730,57 +8730,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Syncope"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Sweat"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Spasm"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Panic"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Lightheadedness"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Exhaustion"
       }
@@ -8806,22 +8806,22 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Tachypnea"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cyanosis"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       }
@@ -8842,17 +8842,17 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Thicken"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Panic"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       }
@@ -8913,57 +8913,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Tinnitus"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vertigo"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 17,
+        "freq": 47,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Worry"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Dizziness"
       }
@@ -9024,57 +9024,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Tremor"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 16,
+        "freq": 41,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 16,
+        "freq": 41,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Stiffness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Drowsiness"
       }
@@ -9125,47 +9125,47 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Underweight"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Overweight"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Anorexia"
       },
       {
-        "freq": 10,
+        "freq": 14,
         "group": 2,
         "id": "Ache"
       }
@@ -9211,42 +9211,42 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Unhappy"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Numbness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Nightmare"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       }
@@ -9282,32 +9282,32 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Unresponsiveness"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Wheezing"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Hoarseness"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Dizziness"
       }
@@ -9368,57 +9368,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Unwell"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Lethargy"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fall"
       }
@@ -9479,57 +9479,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Vertigo"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 18,
+        "freq": 51,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 18,
+        "freq": 51,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Tinnitus"
       },
       {
-        "freq": 16,
+        "freq": 43,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Hyperventilation"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Aura"
       },
       {
-        "freq": 11,
+        "freq": 18,
         "group": 2,
         "id": "Worry"
       }
@@ -9590,57 +9590,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Vomiting"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 17,
+        "freq": 46,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 15,
+        "freq": 35,
         "group": 2,
         "id": "Diarrhea"
       },
       {
-        "freq": 14,
+        "freq": 32,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 13,
+        "freq": 28,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Headache"
       },
       {
-        "freq": 12,
+        "freq": 21,
         "group": 2,
         "id": "Constipation"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 11,
+        "freq": 19,
         "group": 2,
         "id": "Sweat"
       }
@@ -9701,57 +9701,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Wheezing"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 15,
+        "freq": 36,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Swelling"
       },
       {
-        "freq": 14,
+        "freq": 30,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Hoarseness"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Dizziness"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Vomiting"
       },
       {
-        "freq": 12,
+        "freq": 20,
         "group": 2,
         "id": "Nausea"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Spasm"
       }
@@ -9787,32 +9787,32 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Withdraw"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Seizure"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Gag"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 13,
+        "freq": 26,
         "group": 2,
         "id": "Agitation"
       }
@@ -9873,57 +9873,57 @@
     ],
     "nodes": [
       {
-        "freq": 21,
+        "freq": 65,
         "group": 1,
         "id": "Worry"
       },
       {
-        "freq": 20,
+        "freq": 60,
         "group": 2,
         "id": "Pain"
       },
       {
-        "freq": 12,
+        "freq": 24,
         "group": 2,
         "id": "Fever"
       },
       {
-        "freq": 12,
+        "freq": 23,
         "group": 2,
         "id": "Ache"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Fall"
       },
       {
-        "freq": 12,
+        "freq": 22,
         "group": 2,
         "id": "Elation"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Left "
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Difficulty"
       },
       {
-        "freq": 11,
+        "freq": 17,
         "group": 2,
         "id": "Cough"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Redness"
       },
       {
-        "freq": 11,
+        "freq": 16,
         "group": 2,
         "id": "Panic"
       }

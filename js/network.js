@@ -1,7 +1,7 @@
 function showChart(queryKey) {
 
     var width = 500;
-    var height = 410;
+    var height = 470;
     var color = d3.scaleOrdinal().domain([0, 1]).range(['#ffb36d', '#6D8DF6']);//(d3.schemePastel1);
 
 
@@ -45,13 +45,13 @@ function showChart(queryKey) {
                 return d.id;
             }))
             .force('charge', d3.forceManyBody()
-                .strength(-3000)
+                .strength(-4000)
                 .theta(0.8)
-                .distanceMax(500)
+                .distanceMax(700)
             )
             .force("center", d3.forceCenter(width / 2, height / 2))
             .force('anti_collide', d3.forceCollide(function (d) {
-                return scaleForRadius(d.freq) + 5
+                return scaleForRadius(d.freq) + 20
             }));
         ;
 
@@ -75,7 +75,7 @@ function showChart(queryKey) {
                     .data(graph.nodes)
                     .enter().append("circle")
                     .attr("r", function (d) {
-                        return d.freq+26;
+                        return d.freq;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);
@@ -171,7 +171,7 @@ function showChart(queryKey) {
 
                 node
                     .attr("r", function (d) {
-                        return d.freq+26;
+                        return d.freq;
                     })
                     .attr("fill", function (d) {
                         return color(d.group);

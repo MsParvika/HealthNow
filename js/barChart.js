@@ -2,19 +2,32 @@ function barChart(keyword) {
     var element1 = document.getElementById("symptomBtn");
     var element2 = document.getElementById("diseaseBtn");
     var element3 = document.getElementById("medicineBtn");
+    element1.style.background = '#117a8b';
+    element2.style.background = '#6B6FC8';
+    element3.style.background = '#6B6FC8';
+
     element1.onclick = function () {
+        element1.style.background = '#117a8b';
+        element2.style.background = '#6B6FC8';
+        element3.style.background = '#6B6FC8';
         myfunc(keyword, 'likelySymptoms', 'symptom');
     };
     element2.onclick = function () {
+        element2.style.background = '#117a8b';
+        element1.style.background = '#6B6FC8';
+        element3.style.background = '#6B6FC8';
         myfunc(keyword, 'likelyDiseases', 'disease');
     };
     element3.onclick = function () {
+        element3.style.background = '#117a8b';
+        element2.style.background = '#6B6FC8';
+        element1.style.background = '#6B6FC8';
         myfunc(keyword, 'likelyMedicines', 'medicine');
     };
 
     var width = 530;
-    var height = 220;
-    var margin = {top: 20, bottom: 70, left: 28, right: 20};
+    var height = 300;
+    var margin = {top: 20, bottom: 70, left: 40, right: 20};
 
     var svg = d3.select('#barChart')
         //.append('svg')
@@ -36,6 +49,8 @@ function barChart(keyword) {
                 data = data.slice(0, 10);
             }
 
+            //var tooltip = d3.select("#barChart").append("svg").attr("class", "toolTip");
+
             var xScale = d3.scaleBand()
                 .rangeRound([0, width-margin.left])
                 .padding(0.1).domain(data.map(function (d) {
@@ -44,7 +59,7 @@ function barChart(keyword) {
 
             var yScale = d3.scaleLinear()
                 .rangeRound([height, margin.bottom+10]).domain([0, d3.max(data, function (d) {
-                    return Number(d.value );
+                    return Number(d.value*1.3);
                 })]);
 
             var yAxis = d3.axisLeft().scale(yScale).ticks(5);
@@ -57,14 +72,14 @@ function barChart(keyword) {
                 .style("font-size", "10px")
                 .attr("font-family", "serif")
                 .style("fill", "black")
-                .attr("transform", "rotate(-60)translate(-30,-15)");
+                .attr("transform", "rotate(-45)translate(-30,-15)");
 
             svg.append("g")
                 .attr("transform", "translate(" + margin.left + ","+ (0 - margin.bottom) +")")
                 .attr("class", "axis")
                 .call(yAxis)
                 .append("text")
-                .attr("transform", "rotate(-90)")
+                .attr("transform", "translate(30,60)")
                 .attr("x", -20)
                 .attr("y", 2)
                 .attr("dy", "15px")
@@ -72,7 +87,7 @@ function barChart(keyword) {
                 .style("font-size", "10px")
                 .attr("font-family", "serif")
                 .style("fill", "black")
-                .text("Frequency");
+                .text("Freq");
 
             svg.selectAll(".bar")
                 .data(data)
@@ -88,21 +103,6 @@ function barChart(keyword) {
                 .attr("height", function (d) {
                     return height - yScale(Number(d.value));
                 });
-            /*
-                .append("text")
-                .attr("class", "label")
-                .style("font-size", "10px")
-                .attr("font-family", "serif")
-                .style("fill", "black")
-                .attr("y", function (d) {
-                    return yScale(Number(d.value));
-                })
-                .attr("x", function (d) {
-                    return xScale(d[sdm]) + 3;
-                })
-                .text(function (d) {
-                    return d[sdm];
-                }); */
         });
 
     }
